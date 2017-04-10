@@ -1,7 +1,7 @@
 theme = "glory"
 languageCode = "en-us"
 title = "My New Hugo Site"
-baseURL = "http://example.org/"
+baseURL = "http://dev.brianliston.com/"
 publishDir = "docs"
 
 [taxonomies]
