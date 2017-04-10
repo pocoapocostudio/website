@@ -107,7 +107,7 @@
 			font-size: .9rem;
 		}
 
-		.home main, .work main, .blog main, .category main, .tag main .page main {
+		.home main, .work main, .blog main, .category main, .tag main, .page main {
 				width: 90%;
 			}
 
@@ -255,11 +255,6 @@
 		padding-top: .35em;
 		background-color: #f4f4f4;
 		color: #e0431e;
-	}
-
-	header nav a.selected:before {
-		content: "\00BB";
-    	margin-right: 6px;
 	}
 
 
@@ -453,7 +448,7 @@
 
 	.container-element {
 		background-color: #fff;
-		box-shadow: 0 0 15px #dbdbdb;
+		box-shadow: 0 0 150px #dbdbdb;
 	}
 
 	.horizontal-tags dd, .horizontal-tags dt {
@@ -516,9 +511,9 @@
 	.work-item-card {
 		display: inline-table;
 		background-color: #fff;
-		box-shadow: 0 0 15px #dbdbdb;
 		width:49%;
 		margin-bottom: 2em;
+		box-shadow: 0 0 20px #dbdbdb;
 	}
 	
 	.work-item-card:nth-child(even) {
