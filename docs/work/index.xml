@@ -10,12 +10,24 @@
     <atom:link href="http://example.org/work/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Kickstarter Videos for Artana</title>
-      <link>http://example.org/work/first-work-item/</link>
+      <title>Fifth Work Item</title>
+      <link>http://example.org/work/fifth-work-item/</link>
       <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
       
-      <guid>http://example.org/work/first-work-item/</guid>
-      <description>&lt;p&gt;Powering Up! is an expansion to the hit board game Tesla vs. Edison. Funded over 3000%, Powering Up! raised 3/4ths the money of its base game, Tesla vs. Edison. &lt;/p&gt;
+      <guid>http://example.org/work/fifth-work-item/</guid>
+      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kickstarter Videos for Artana</title>
+      <link>http://example.org/work/kickstarter-videos-for-artana/</link>
+      <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
+      
+      <guid>http://example.org/work/kickstarter-videos-for-artana/</guid>
+      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;
+
+&lt;p&gt;Powering Up! is an expansion to the hit board game Tesla vs. Edison. Funded over 3000%, Powering Up! raised 3/4ths the money of its base game, Tesla vs. Edison.&lt;/p&gt;
 
 &lt;p&gt;For this Kickstarter campaign, I created the video, campaign images, and other marketing assets.&lt;/p&gt;
 
@@ -26,16 +38,19 @@
 
 &lt;p&gt;Neque porro quisquam est qui dolorem
 ipsum quia dolor sit amet consectetur
-adipisci velit&lt;/p&gt;</description>
+adipisci velit&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Marvin &amp; The Moths Book Trailer</title>
-      <link>http://example.org/work/fourth-item-work/</link>
+      <link>http://example.org/work/marvin-and-the-moths-book-trailer/</link>
       <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
       
-      <guid>http://example.org/work/fourth-item-work/</guid>
-      <description>&lt;p&gt;Authors Jon Follett and Matthew Holm contacted me to create a trailer for their latest book. The project time frame was short&amp;ndash;the book release was only two weeks away. &lt;/p&gt;
+      <guid>http://example.org/work/marvin-and-the-moths-book-trailer/</guid>
+      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;
+
+&lt;p&gt;Authors Jon Follett and Matthew Holm contacted me to create a trailer for their latest book. The project time frame was short&amp;ndash;the book release was only two weeks away.&lt;/p&gt;
 
 &lt;p&gt;Using black-and-white illustrations created for the book by Matthew, I created a “creature feature” style trailer inspired by genre classics like Tarantula, The Day the Earth Stood Still, and other giant monster movies.&lt;/p&gt;
 
@@ -50,11 +65,7 @@ adipisci velit&lt;/p&gt;</description>
       <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
       
       <guid>http://example.org/work/second-work-item/</guid>
-      <description>&lt;p&gt;Neque porro quisquam est qui dolorem
-ipsum quia dolor sit amet consectetur
-adipisci velit&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;
 
 &lt;p&gt;Neque porro quisquam est qui dolorem
 ipsum quia dolor sit amet consectetur
@@ -66,7 +77,8 @@ adipisci velit&lt;/p&gt;
 
 &lt;p&gt;Neque porro quisquam est qui dolorem
 ipsum quia dolor sit amet consectetur
-adipisci velit&lt;/p&gt;</description>
+adipisci velit&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -75,9 +87,7 @@ adipisci velit&lt;/p&gt;</description>
       <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
       
       <guid>http://example.org/work/third-work-item/</guid>
-      <description>&lt;p&gt;Neque porro quisquam est qui dolorem
-ipsum quia dolor sit amet consectetur
-adipisci velit&lt;/p&gt;
+      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;
 </description>
     </item>
     

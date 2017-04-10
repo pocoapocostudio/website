@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.org/work/first-work-item/</loc>
+    <loc>http://example.org/work/fifth-work-item/</loc>
     <lastmod>2017-04-09T14:55:48-06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/work/fourth-item-work/</loc>
+    <loc>http://example.org/work/kickstarter-videos-for-artana/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/marvin-and-the-moths-book-trailer/</loc>
     <lastmod>2017-04-09T14:55:48-06:00</lastmod>
   </url>
   
