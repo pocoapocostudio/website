@@ -518,7 +518,7 @@
 		background-color: #fff;
 		box-shadow: 0 0 15px #dbdbdb;
 		width:49%;
-		margin-top: 2em;
+		margin-bottom: 2em;
 	}
 	
 	.work-item-card:nth-child(even) {
@@ -561,6 +561,10 @@
 @media screen and (max-width: 1024px) {
 	.work-item-card {
 		width: 100%;
+	}
+
+	.work-item-card:nth-child(even) {
+		margin-left: 0;
 	}
 }
 
