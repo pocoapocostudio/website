@@ -1,0 +1,9 @@
+theme = "glory"
+languageCode = "en-us"
+title = "My New Hugo Site"
+baseURL = "http://example.org/"
+publishDir = "docs"
+
+[taxonomies]
+tag = "tags"
+category = "categories"

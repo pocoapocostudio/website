@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on My New Hugo Site</title>
+    <link>http://example.org/categories/video/index.xml</link>
+    <description>Recent content in Video on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://example.org/categories/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fourth Work Item</title>
+      <link>http://example.org/work/fourth-item-work/</link>
+      <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
+      
+      <guid>http://example.org/work/fourth-item-work/</guid>
+      <description>&lt;p&gt;Neque porro quisquam est qui dolorem
+ipsum quia dolor sit amet consectetur
+adipisci velit&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Third Work Item</title>
+      <link>http://example.org/work/third-work-item/</link>
+      <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
+      
+      <guid>http://example.org/work/third-work-item/</guid>
+      <description>&lt;p&gt;Neque porro quisquam est qui dolorem
+ipsum quia dolor sit amet consectetur
+adipisci velit&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

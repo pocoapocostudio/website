@@ -1,0 +1,44 @@
+{{ partial "header.html" . }}
+
+<body onload="setFont();" class="work">
+
+{{ partial "sub-header.html" . }}
+
+<main>
+	<section id="work-list">
+		<h1>Selected Work</h1>
+	<p class="header-description">Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.</p>
+	
+	<aside id="tags" class="container-element work-categories twenty-five-percent-bigger">
+	
+		<dl class="horizontal-tags">
+			<dt>Categories:</dt>
+
+			{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+				<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></dd>
+			{{ end }}
+
+		</dl>
+
+	</aside>
+
+		<div class="column no-margin">
+
+			{{ range (where .Data.Pages "Section" "work") }}
+
+
+				{{ partial "work-card.html" . }}
+	    	{{- end -}}
+
+			{{ $k := len (where .Site.Pages "Section" "work") }}
+			    	
+		    {{ if mod $k 2 | eq 0 }}
+		    		<div class="clearfix"> </div>
+    		{{ end }}
+
+		</div>
+
+	</section>
+</main>
+
+{{ partial "footer.html" . }}

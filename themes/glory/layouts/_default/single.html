@@ -1,0 +1,42 @@
+{{ partial "header.html" . }}
+
+<body onload="setFont();" class="post">
+
+{{ partial "sub-header.html" . }}
+
+<main>
+
+<article>
+<p class="blog-back"><a href="/blog">Back to blog</a></p>
+<h1 class="blog-title">{{ .Title }}</h1>
+<p class="blog-date"><time datetime="2017-04-07 20:00">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
+
+
+{{ .Content }}
+
+<!-- 
+
+<p class="post-text">
+
+<p class="post-media"><img src="videoplaceholder.jpg" width="100%"/></p> 
+
+-->
+
+</article>
+
+<aside id="tags" class="container-element">
+	<dl class="horizontal-tags">
+		<dt>Tags:</dt>
+
+		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+			<dd><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></dd>
+		{{ end }}
+	
+	</dl>
+</aside>
+
+{{ partial "single-nav.html" . }}
+
+</main>
+
+{{ partial "footer.html" . }}

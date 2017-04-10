@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://example.org/work/first-work-item/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/fourth-item-work/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/second-work-item/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/third-work-item/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2017-04-09T14:32:19-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/second-post/</loc>
+    <lastmod>2017-04-09T14:02:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/first-post/</loc>
+    <lastmod>2017-03-09T14:02:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/amazing/</loc>
+    <lastmod>2017-04-09T14:02:18-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/blog/</loc>
+    <lastmod>2017-04-09T14:02:18-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/design/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/smart/</loc>
+    <lastmod>2017-04-09T14:02:18-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/video/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/web/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/work/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/wow/</loc>
+    <lastmod>2017-04-09T14:02:18-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

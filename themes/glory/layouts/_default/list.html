@@ -1,0 +1,49 @@
+{{ partial "header.html" . }}
+
+<body onload="setFont();" class="blog">
+
+{{ partial "sub-header.html" . }}
+
+<main>
+
+<section id="blog-content">
+
+<h1>Blog</h1>
+<p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit nisl magna, ut hendrerit risus tincidunt in.</p>
+
+  {{- range first 10 .Data.Pages -}}
+    {{- if eq .Type "blog"}}
+
+<article>
+<a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+<p class="blog-date"><time datetime="2017-04-07 20:00">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
+<p>
+{{ .Summary }}
+<a class="read-more fifty-percent-bigger" href="{{ .Permalink }}">Read</a>
+</p>
+</article>
+
+    {{- end -}}
+  {{- end }}
+
+</section>
+
+<aside id="tags" class="container-element">
+	<dl class="vertical-tags">
+		<dt>Tags:</dt>
+
+		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+			<dd><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></dd>
+		{{ end }}
+	
+	</dl>
+</aside>
+
+<nav class="blog-nav">
+<span class="blog-previous"><a href="#">Newer posts</a></span>
+<span class="blog-next"><a href="#">Older posts</a></span>
+</nav>
+
+</main>
+
+{{ partial "footer.html" . }}

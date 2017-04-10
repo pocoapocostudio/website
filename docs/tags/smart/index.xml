@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smart on My New Hugo Site</title>
+    <link>http://example.org/tags/smart/index.xml</link>
+    <description>Recent content in Smart on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://example.org/tags/smart/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Second Post</title>
+      <link>http://example.org/blog/second-post/</link>
+      <pubDate>Sun, 09 Apr 2017 14:02:18 -0600</pubDate>
+      
+      <guid>http://example.org/blog/second-post/</guid>
+      <description>&lt;p&gt;In vel ligula tortor. Aliquam erat volutpat.
+Pellentesque at felis eu quam tincidunt dignissim.
+Nulla facilisi.&lt;/p&gt;
+
+&lt;p&gt;Pellentesque tempus nisi et interdum convallis.
+In quam ante, vulputate at massa et, rutrum
+gravida dui. Phasellus tristique libero at ex.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>http://example.org/blog/first-post/</link>
+      <pubDate>Thu, 09 Mar 2017 14:02:18 -0600</pubDate>
+      
+      <guid>http://example.org/blog/first-post/</guid>
+      <description>&lt;p&gt;In vel ligula tortor. Aliquam erat volutpat.
+Pellentesque at felis eu quam tincidunt dignissim.
+Nulla facilisi.&lt;/p&gt;
+
+&lt;p&gt;Pellentesque tempus nisi et interdum convallis.
+In quam ante, vulputate at massa et, rutrum
+gravida dui. Phasellus tristique libero at ex.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

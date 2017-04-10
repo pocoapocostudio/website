@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+
+<body onload="setFont();" class="category">
+
+{{ partial "sub-header.html" . }}
+
+<main>
+	<section id="work-list">
+		<p class="blog-back">
+		<a href="/work">Back to Work page</a>
+	</p>
+
+<h1 class="blog-title">{{ .Title }} Projects</h1>
+<p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit nisl magna, ut hendrerit risus tincidunt in.</p>
+
+		<div class="column no-margin">
+
+			{{ range (where .Data.Pages "Section" "work") }}
+				{{ partial "work-card.html" . }}
+	    	{{- end -}}
+
+	    	{{ $k := len (where .Site.Pages "Section" "work") }}
+			    	
+		    {{ if mod $k 2 | eq 0 }}
+		    		<div class="clearfix"> </div>
+    		{{ end }}
+
+		</div>
+
+	<aside id="tags" class="container-element work-categories twenty-five-percent-bigger">
+	
+		<dl class="horizontal-tags">
+			<dt>Categories:</dt>
+
+			{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+				<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></dd>
+			{{ end }}
+
+		</dl>
+
+	</aside>
+
+	</section>
+</main>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,49 @@
+<header>
+
+<div id="text-size" class="text-size">
+
+<button type="button" onclick="resizeFont(-1);" class="text-size-button"><span class="button-smaller">A</span></button>
+<button type="button" onclick="resizeFont(1);" class="text-size-button"><span class="button-bigger">A</span></button>
+
+</div>
+
+<a href="#" rel="home"><img class="logo" src="/img/theme/logo.png" alt="Brian Liston's logo" /></a>
+
+<h5 class="tagline">Video production and digital design in Denver, Colorado</h5>
+
+<nav>
+	<a href="/" 
+
+	{{- if eq .URL "/" }}
+	class="selected"
+	{{- end -}}
+
+	>Home</a>
+
+	<a href="/blog" 
+
+	{{- if eq .URL "/blog/" }}
+	class="selected"
+	{{- end -}}
+
+	>Blog</a>
+
+	<a href="/work" 
+
+	{{- if eq .URL "/work/" }}
+	class="selected"
+	{{- end -}}
+
+	>Work</a>
+	<a href="/about" 
+
+	{{- if eq .URL "/about/" }}
+	class="selected"
+	{{- end -}}
+
+	>About</a>
+
+	<a href="mailto:bp.liston@gmail.com" >Email</a>
+</nav>
+
+</header>

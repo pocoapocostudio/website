@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+
+<body onload="setFont();" class="page">
+
+{{ partial "sub-header.html" . }}
+
+<main>
+
+<section>
+<h1 class="blog-title">{{ .Title }}</h1>
+
+<p class="header-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+<p>
+{{ .Content }}
+</p>
+<!-- <p class="post-media"><img src="videoplaceholder.jpg" width="100%"/></p> -->
+</article>
+
+</main>
+
+{{ partial "footer.html" . }}

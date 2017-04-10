@@ -1,0 +1,41 @@
+{{ partial "header.html" . }}
+
+<body onload="setFont();" class="post work-item">
+
+{{ partial "sub-header.html" . }}
+
+<main>
+
+<article>
+	<p class="blog-back">
+		<a href="/work">Back to Work page</a>
+	</p>
+
+	<h1 class="blog-title">{{ .Title }}</h1>
+
+	{{ range .Params.categories }}
+			<p class="work-category">{{ . }} Project</p>
+	{{ end }}
+
+		{{ .Content }}
+
+<!-- <p class="post-media"><img src="videoplaceholder.jpg" /></p> -->
+
+</article>
+
+<aside id="tags" class="container-element">
+	<dl class="horizontal-tags">
+		<dt>Categories:</dt>
+
+		{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+			<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></dd>
+		{{ end }}
+	
+	</dl>
+</aside>
+
+{{ partial "single-nav.html" . }}
+
+</main>
+
+{{ partial "footer.html" . }}

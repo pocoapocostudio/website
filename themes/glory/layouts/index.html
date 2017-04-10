@@ -1,0 +1,42 @@
+{{ partial "header.html" . }}
+
+<body onload="setFont();" class="home">
+
+{{ partial "sub-header.html" . }}
+
+<main>
+
+	<section id="introduction" class="introduction">
+		<h1>Design for video, web and emerging media.</h1>
+		<span class="fifty-percent-bigger">I help creative people make beautiful things for the digital world.</span>
+	</section>
+
+	<div id="latest-blog-post" class="latest-blog-post container-element">
+	{{ range first 1 (where .Data.Pages "Section" "blog") }}
+		<h6 class="latest-blog-post-title">Latest blog post: <a href="{{ .Permalink }}" class="no-border">{{ .Title }}</a></h6>
+		<!-- <a class="read-more twenty-five-percent-bigger" href="post.html">Read</a> -->
+    {{- end -}}
+	</div>
+	
+	<section id="featured-video">
+		<h3 class="title-text">Who am I?</h3>
+		<img src="/img/content/videoplaceholder.jpg" width="100%" alt="placeholder" />
+	</section>
+
+	<section id="work-list">
+
+		<h3 class="title-text">Work I've made</h3>
+
+		<div class="column">
+		{{ range first 2 (where .Data.Pages "Section" "work") }}
+
+			{{ partial "work-card.html" . }}
+
+    	{{- end -}}
+    	
+		</div>
+
+	</section>
+</main>
+
+{{ partial "footer.html" . }}
