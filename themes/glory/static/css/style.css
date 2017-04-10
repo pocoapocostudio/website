@@ -415,9 +415,17 @@
 	}
 
 	.post-media {
+		margin: 2em 0;
+	}
+
+	.post-media img {
 		width: 1280px;
-		margin: 0 auto;
-		padding-bottom: 1.25em;
+	}
+
+	.post-media p {
+		padding-top: .25em;
+		font-style: italic;
+		text-align: center;
 	}
 
 	.blog-title {
@@ -495,7 +503,7 @@
 			width: 90%;
 		}
 
-		.post-media {
+		.post-media img {
 			width: 100%;
 		}
 
@@ -549,7 +557,7 @@
 	.work-item-container {
 		display: block;
 		padding: 1em 2em 1em 2em;
-		height: 11em;
+		height: 14.5em;
 	}
 
 	.work-item-description {

@@ -7,9 +7,9 @@
 			{{ range .Params.categories }}
 			<p class="work-category"><a class=" no-border" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></p>
 			{{ end }}
-				<p class="work-item-description no-margin">
+				<!-- <p class="work-item-description no-margin"> -->
 				{{ .Summary }}
-				</p>
+				<!-- </p> -->
 				<a class="work-item-read twenty-five-percent-bigger" href="{{ .Permalink }}">See the project</a>
 			</div>
 			</div>

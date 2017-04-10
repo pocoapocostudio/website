@@ -9,15 +9,38 @@
     <atom:link href="http://example.org/categories/video/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Fourth Work Item</title>
+      <title>Kickstarter Videos for Artana</title>
+      <link>http://example.org/work/first-work-item/</link>
+      <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
+      
+      <guid>http://example.org/work/first-work-item/</guid>
+      <description>&lt;p&gt;Powering Up! is an expansion to the hit board game Tesla vs. Edison. Funded over 3000%, Powering Up! raised 3/4ths the money of its base game, Tesla vs. Edison. &lt;/p&gt;
+
+&lt;p&gt;For this Kickstarter campaign, I created the video, campaign images, and other marketing assets.&lt;/p&gt;
+
+&lt;div class=&#34;post-media&#34;&gt;
+  &lt;img src=&#34;http://example.org/img/content/artana/tvepu-component-layout.jpg&#34; alt=&#34;Tesla Vs. Edison Componenet layout&#34;&gt;
+  &lt;p&gt;3D Layout for Tesla vs. Edison: Powering Up!&lt;/p&gt;
+&lt;/div&gt; 
+
+&lt;p&gt;Neque porro quisquam est qui dolorem
+ipsum quia dolor sit amet consectetur
+adipisci velit&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Marvin &amp; The Moths Book Trailer</title>
       <link>http://example.org/work/fourth-item-work/</link>
       <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
       
       <guid>http://example.org/work/fourth-item-work/</guid>
-      <description>&lt;p&gt;Neque porro quisquam est qui dolorem
-ipsum quia dolor sit amet consectetur
-adipisci velit&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;Authors Jon Follett and Matthew Holm contacted me to create a trailer for their latest book. The project time frame was short&amp;ndash;the book release was only two weeks away. &lt;/p&gt;
+
+&lt;p&gt;Using black-and-white illustrations created for the book by Matthew, I created a “creature feature” style trailer inspired by genre classics like Tarantula, The Day the Earth Stood Still, and other giant monster movies.&lt;/p&gt;
+
+&lt;div class=&#34;post-media&#34;&gt;
+    &lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&#39;embed-container&#39;&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/183347030&#34; width=&#34;1280&#34; height=&#34;720&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
