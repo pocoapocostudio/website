@@ -108,6 +108,8 @@
 			font-size: .9rem;
 		}
 
+		p {font-size: 1.25em;}
+
 		.home main, .work main, .blog main, .category main, .tag main, .page main {
 				width: 90%;
 			}
@@ -535,6 +537,10 @@
 	}
 
 	.work-category {
+		margin: 0;
+	}
+
+	.work-item .work-category {
 		padding-bottom: .5em;
 	}
 
