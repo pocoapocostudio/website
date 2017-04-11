@@ -32,6 +32,16 @@
 
 /* # Global */
 
+	@font-face {
+	    font-family: "Zona Pro Bold";
+	    src: url(/img/theme/ZonaPro-Bold.otf);
+	}
+
+	@font-face {
+		font-family: "Zona Pro Black";
+	    src: url(/img/theme/ZonaPro-Black.otf);
+	}
+
 	body {
 		background-color: #f4f4f4;
 		font-family: "Nunito", sans-serif;
@@ -103,6 +113,17 @@
 		font-size: 1.5em
 	}
 
+	.logo {
+		font-family: "Zona Pro Bold";
+		color: #fff;
+		font-size: 5em;
+		letter-spacing: -.04em;
+	}
+
+	.logo .underscore {
+		font-family: "Zona Pro Black";
+	}
+
 	@media screen and (max-width: 1024px) {
 		body {
 			font-size: .9rem;
@@ -135,6 +156,10 @@
 		body {
 			font-size: .7rem;
 		}
+
+		.logo {
+			font-size: 4em;
+		}
 	}
 
 /* ## Header */
@@ -145,7 +170,7 @@
 		margin-bottom: 	3.25em;
 		background-image: url("/img/theme/pattern.svg");
 		background-repeat: no-repeat;
-		background: cover;
+		background-size: cover;
 		background-position: center;
 	}
 
@@ -334,7 +359,8 @@
 	.title-description {
 		text-align: center;
 		margin-top: 0;
-		margin-bottom: 1.25em;
+		margin-bottom: .75em;
+		line-height: initial;
 	}
 
 	.latest-blog-post {
