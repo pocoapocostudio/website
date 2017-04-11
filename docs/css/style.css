@@ -140,6 +140,10 @@
 		text-align: center;
 		background-color: #f0592b;
 		margin-bottom: 	3.25em;
+		background-image: url("/img/theme/pattern.svg");
+		background-repeat: no-repeat;
+		background: cover;
+		background-position: center;
 	}
 
 	header a, header a:hover {
