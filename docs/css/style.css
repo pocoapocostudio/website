@@ -179,6 +179,7 @@
 		height: 60px;
 		vertical-align: bottom;
 		font-weight: bold;
+		border-radius: 3px;
 	}
 
 	.text-size-button:active {
@@ -295,13 +296,23 @@
 		border-bottom: none;
 	}
 
+	@media screen and (min-width: 1024px) {
+		#to-top { 
+			display: none;
+		}
+	}
+
 	#to-top {
-	    display: none; /* Hidden by default */
+	    opacity: 0; /* Hidden by default */
 	    position: fixed; /* Fixed/sticky position */
 	    bottom: 20px; /* Place the button at the bottom of the page */
 	    right: 20px; /* Place the button 30px from the right */
 	    z-index: 99; /* Make sure it does not overlap */
 	    cursor: pointer; /* Add a mouse pointer on hover */
+	    transition: opacity 500ms linear;
+	    -webkit-transition: opacity 500ms linear;
+        -moz-transition: opacity 100ms linear;
+        -o-transition: opacity 100ms linear;
 	}
 
 	#top-top:hover {
