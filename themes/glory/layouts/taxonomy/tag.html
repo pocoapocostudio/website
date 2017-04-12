@@ -8,14 +8,13 @@
 
 <section id="blog-content">
 
-<p class="up-a-level"><a href="/blog">Up to blog</a></p>
+<p class="up-a-level"><a href="/blog">Up to Blog</a></p>
 
 <h1 class="page-title">Tag: {{ .Title }}</h1>
 <p class="page-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit nisl magna, ut hendrerit risus tincidunt in.</p>
 
-  {{- range first 10 .Data.Pages -}}
-    {{- if eq .Type "blog"}}
-
+		{{ $paginator := .Paginate (where .Data.Pages "Section" "blog") }}
+			{{ range $paginator.Pages }}
 <article>
 <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
 <p class="blog-date"><time datetime="2017-04-07 20:00">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
@@ -26,7 +25,6 @@
 </article>
 
     {{- end -}}
-  {{- end }}
 
 </section>
 
@@ -41,10 +39,7 @@
 	</dl>
 </aside>
 
-<nav class="blog-nav">
-<span class="blog-previous"><a href="#">Newer posts</a></span>
-<span class="blog-next"><a href="#">Older posts</a></span>
-</nav>
+{{ partial "pagination.html" . }}
 
 </main>
 

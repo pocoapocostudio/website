@@ -25,7 +25,7 @@
 
 <aside id="tags" class="container-element">
 	<dl class="horizontal-tags twenty-five-percent-bigger">
-		<dt>Browse Projects:</dt>
+		<dt>Browse Work:</dt>
 
 		{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
 			<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></dd>
@@ -34,7 +34,7 @@
 	</dl>
 </aside>
 
-	<nav class="related-work-items">
+<nav class="related-work-items">
 
 	{{ $page_link := .Permalink }}
 	{{ $categories := .Params.categories }}
@@ -49,7 +49,7 @@
 		{{ end }}
 	{{ end }}
 
-	</nav>
+</nav>
 
 </main>
 

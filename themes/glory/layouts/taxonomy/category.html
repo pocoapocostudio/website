@@ -14,23 +14,17 @@
 <p class="page-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit nisl magna, ut hendrerit risus tincidunt in.</p>
 
 		<div class="column no-margin">
-
-			{{ range (where .Data.Pages "Section" "work") }}
+		{{ $paginator := .Paginate (where .Data.Pages "Section" "work") }}
+			{{ range $paginator.Pages }}
 				{{ partial "work-card.html" . }}
 	    	{{- end -}}
-
-	    	{{ $k := len (where .Site.Pages "Section" "work") }}
-			    	
-		    {{ if mod $k 2 | eq 0 }}
-		    		<div class="clearfix"> </div>
-    		{{ end }}
 
 		</div>
 
 	<aside id="tags" class="container-element work-categories twenty-five-percent-bigger">
 	
 		<dl class="horizontal-tags">
-			<dt>Categories:</dt>
+			<dt>Browse Work:</dt>
 
 			{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
 				<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></dd>
@@ -41,6 +35,9 @@
 	</aside>
 
 	</section>
+
+{{ partial "pagination.html" . }}
+
 </main>
 
 {{ partial "footer.html" . }}

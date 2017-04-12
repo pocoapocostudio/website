@@ -124,6 +124,21 @@
 		font-family: "Zona Pro Black", sans-serif;
 	}
 
+	.pagination {
+		list-style: none;
+		text-align: center;
+		font-size: 1.5em
+	}
+
+	.pagination li {
+		display: inline;
+		margin: .25em;
+	}
+
+	.fa-custom {
+		font-size: .75em !important;
+	}
+
 	@media screen and (max-width: 1024px) {
 		body {
 			font-size: .9rem;
@@ -406,6 +421,9 @@
 		margin-bottom: 3em;
 	}
 
+	.blog-nav .disabled {
+		display: none;
+	}
 
 @media screen and (max-width: 1024px) {
 
