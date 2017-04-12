@@ -618,6 +618,29 @@
 		margin: 2em 0;
 	}
 
+	.related-work-items {
+	    width: 1000px;
+    	margin: 0 auto;
+    	padding-top: 3em;
+	}
+
+	.related-work-items .work-item-card:nth-child(3n) { 
+    	margin-left: 1.5%;
+	}
+
+	.related-work-items .work-item-card:nth-child(2n) { 
+    	margin-left: 0;
+	}
+
+	.related-work-items h4 {
+		margin-bottom: .75em;
+		text-align: center;
+	}
+
+	.related-work-items h6 {
+		margin-bottom: .25em;
+	}
+
 @media screen and (max-width: 1024px) {
 	.work-item-card {
 		width: 100%;
@@ -625,6 +648,14 @@
 
 	.work-item-card:nth-child(even) {
 		margin-left: 0;
+	}
+
+	.related-work-items .work-item-card:nth-child(3n) { 
+    	margin-left: 0;
+	}
+
+	.related-work-items {
+		width: 90%;
 	}
 }
 

@@ -1,0 +1,8 @@
+<div class="work-item-card">
+	<img src="{{ with .Params.featured_image }}{{ . }}{{ end }}" alt="{{ .Title }} Thumbnail" />
+	<div class="work-item-container">
+		<h6>
+			<a href="{{ .Permalink }}" class="no-border">{{ .Title }}</a>
+		</h6>
+	</div>
+</div>

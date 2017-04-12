@@ -25,7 +25,7 @@
 
 <aside id="tags" class="container-element">
 	<dl class="horizontal-tags twenty-five-percent-bigger">
-		<dt>Categories:</dt>
+		<dt>Browse Projects:</dt>
 
 		{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
 			<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></dd>
@@ -34,7 +34,22 @@
 	</dl>
 </aside>
 
-{{ partial "single-nav.html" . }}
+	<nav class="related-work-items">
+
+	{{ $page_link := .Permalink }}
+	{{ $categories := .Params.categories }}
+
+	<h4>More {{ delimit $categories ", "}} Projects</h4>
+
+	{{ range $page := .Site.Pages }}
+		{{ $has_common_categories := intersect $categories .Params.categories | len | lt 0 }}
+			{{ if and $has_common_categories (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$c") 2)}}
+			{{ $.Scratch.Add "$c" 1 }}
+			{{ partial "work-card-small.html" . }}
+		{{ end }}
+	{{ end }}
+
+	</nav>
 
 </main>
 
