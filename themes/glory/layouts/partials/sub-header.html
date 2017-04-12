@@ -22,19 +22,42 @@
 
 	<a href="/blog" 
 
+	class="
+
 	{{- if eq .URL "/blog/" }}
-	class="selected"
+	selected
 	{{- end -}}
+
+	{{if eq .Section "blog"}}
+	selected{{end}}
+
+	{{ $lastUrlElement := index (last 2 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+	{{ $lastUrlElement }}
+	{{ if eq $lastUrlElement "tags" }}
+	selected
+	{{ end }}"
 
 	>Blog</a>
 
 	<a href="/work" 
 
+	class="
+
 	{{- if eq .URL "/work/" }}
-	class="selected"
+	selected
 	{{- end -}}
 
+	{{if eq .Section "work"}}
+	selected{{end}}
+
+	{{ $lastUrlElement := index (last 2 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+	{{ $lastUrlElement }}
+	{{ if eq $lastUrlElement "categories" }}
+	selected
+	{{ end }}"
+
 	>Work</a>
+
 	<a href="/about" 
 
 	{{- if eq .URL "/about/" }}
