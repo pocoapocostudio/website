@@ -197,6 +197,12 @@
 		width: 26em;
 	}
 
+	.sitemap-link {
+		color: #fff;
+		float: left;
+		font-weight: bold;
+	}
+
 	.text-size {
 		padding-top: 2em;
 		width: 1000px;

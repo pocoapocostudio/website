@@ -6,8 +6,18 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Apr 2017 14:55:48 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 12 Apr 2017 16:28:50 -0600</lastBuildDate>
     <atom:link href="http://dev.brianliston.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sitemap</title>
+      <link>http://dev.brianliston.com/sitemap/</link>
+      <pubDate>Wed, 12 Apr 2017 16:28:50 -0600</pubDate>
+      
+      <guid>http://dev.brianliston.com/sitemap/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s the sitemap&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Fifth Work Item</title>
