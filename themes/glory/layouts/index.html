@@ -6,13 +6,13 @@
 
 <main>
 	<section id="introduction" class="introduction">
-		<h1>Design for video, web and emerging media.</h1>
-		<span class="fifty-percent-bigger">I help creative people make beautiful things for the digital world.</span>
+		<h3 class="one-fifty">Design for video, web and emerging media.</h3>
+		<span class="fifty">I help creative people make beautiful things for the digital world.</span>
 	</section>
 
 	<div id="latest-blog-post" class="latest-blog-post container-element">
 	{{ range first 1 (where .Data.Pages "Section" "blog") }}
-		<h6 class="latest-blog-post-title">Latest blog post: <a href="{{ .Permalink }}" class="no-border">{{ .Title }}</a></h6>
+		<h3 class="latest-blog-post-title">Latest blog post: <a href="{{ .Permalink }}" class="no-border">{{ .Title }}</a></h3>
 		<!-- <a class="read-more twenty-five-percent-bigger" href="post.html">Read</a> -->
     {{- end -}}
 	</div>

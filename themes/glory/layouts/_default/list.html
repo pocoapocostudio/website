@@ -8,18 +8,18 @@
 
 <section id="blog-content">
 
-<h1>Blog</h1>
+<h3 class="one-fifty">Blog</h3>
 <p class="page-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit nisl magna, ut hendrerit risus tincidunt in.</p>
 
 	{{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
 			{{ range $paginator.Pages }}
 
 <article>
-<a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+<a href="{{ .Permalink }}"><h3 class="seventy-five">{{ .Title }}</h3></a>
 <p class="blog-date"><time datetime="2017-04-07 20:00">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
 <p>
 {{ .Summary }}
-<a class="read-more fifty-percent-bigger" href="{{ .Permalink }}">Read</a>
+<a class="read-more" href="{{ .Permalink }}">Read</a>
 </p>
 </article>
 

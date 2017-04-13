@@ -7,7 +7,7 @@
 <main>
 
 <section>
-<h1 class="page-title">{{ .Title }}</h1>
+<h3 class="page-title">{{ .Title }}</h3>
 
 <p>
 {{ .Content }}
@@ -15,12 +15,12 @@
 
 <nav class="sitemap">
 <ul class="sitemap-first-level">
-<li><h6>Pages</h6></li>
+<li><h4 class="twenty-five">Pages</h4></li>
 <li><a href="/">Home</a></li>
 <li><a href="/about/">About</a></li>
 <li><a href="/blog/">Blog</a></li>
 <li><a href="/work">Work</a></li>
-<li class="sitemap-title"><h6>Blog posts listed by tag:</h6></li>
+<li class="sitemap-title"><h4 class="twenty-five">Blog posts listed by tag:</h4></li>
 {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
 	<li><a href="{{ "/tags/" | relLangURL }}{{ $name }}">{{ $name | title }}</a></li>
 	<ul>
@@ -29,7 +29,7 @@
 		{{ end }}
 	</ul>
 {{ end }}
-<li class="sitemap-title"><h6>Work listed by category:</h6></li>
+<li class="sitemap-title"><h4 class="twenty-five">Work listed by category:</h4></li>
 {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
 	<li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></li>
 	<ul>

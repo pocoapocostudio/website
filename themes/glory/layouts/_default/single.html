@@ -8,7 +8,7 @@
 
 <article>
 <p class="up-a-level"><a href="/blog">Up to Blog</a></p>
-<h1 class="blog-title">{{ .Title }}</h1>
+<h3 class="blog-title">{{ .Title }}</h3>
 <p class="blog-date"><time datetime="2017-04-07 20:00">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
 
 
@@ -25,7 +25,7 @@
 </article>
 
 <aside id="tags" class="container-element">
-	<dl class="horizontal-tags twenty-five-percent-bigger">
+	<dl class="horizontal-tags">
 		<dt>Tags:</dt>
 
 		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}

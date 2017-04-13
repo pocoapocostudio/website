@@ -1,15 +1,15 @@
 			<div class="work-item-card">
 			<img src="{{ with .Params.featured_image }}{{ . }}{{ end }}" alt="{{ .Title }} Thumbnail" />
 			<div class="work-item-container">
-			<h5>
-			<a href="{{ .Permalink }}" class="no-border">{{ .Title }}</a>
-			</h5>
+			<h4 class="fifty">
+			{{ .Title }}
+			</h4>
 			{{ range .Params.categories }}
 			<p class="work-category"><a class=" no-border" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></p>
 			{{ end }}
 				<!-- <p class="work-item-description no-margin"> -->
 				<p>{{ .Summary }}</p>
 				<!-- </p> -->
-				<a class="work-item-read twenty-five-percent-bigger" href="{{ .Permalink }}">See the project</a>
+				<a class="work-item-read" href="{{ .Permalink }}">See the project</a>
 			</div>
 			</div>
