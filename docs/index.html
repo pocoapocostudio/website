@@ -15,15 +15,15 @@
 
 </head>
 
-<body onload="setFont();" class="home">
+<body class="home">
 
-<header>
+<header role="banner">
 
-<a href="/" rel="home"><h1 class="logo">brian<span class="underscore">_</span>liston</h1></div></a>
+<h1 class="logo">brian<span class="underscore">_</span>liston</h1></div>
 
 <h2 class="tagline">Video production and digital design in Denver, Colorado</h2>
 
-<nav>
+<nav aria-label="Main website navigation">
 	<a href="/"
 	class="selected">Home</a>
 
@@ -55,23 +55,27 @@
 </header>
 
 <main>
-	<section id="introduction" class="introduction">
+	<section id="introduction" class="introduction" aria-label="About me">
 		<h3 class="one-fifty">Design for video, web and emerging media.</h3>
 		<span class="fifty">I help creative people make beautiful things for the digital world.</span>
 	</section>
 
-	<div id="latest-blog-post" class="latest-blog-post container-element">
+	<section id="latest-blog-post" class="latest-blog-post container-element" aria-label="Most recent post from my blog">
 	
 		<h3 class="latest-blog-post-title">Latest blog post: <a href="http://dev.brianliston.com/blog/second-post/" class="no-border">Second Post</a></h3>
-		</div>
+		</section>
+
+	<hr />
 	
-	<section id="featured-video">
+	<section id="featured-video" aria-label="Video introduction">
 		<h3 class="title-text">Who am I?</h3>
 		<p class="title-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		<img src="/img/content/videoplaceholder.jpg" width="100%" alt="placeholder" />
 	</section>
 
-	<section id="work-list">
+	<hr />
+
+	<section id="work-list" aria-label="Most recent work I've made">
 
 		<h3 class="title-text">Work I've made</h3>
 		<p class="title-description">Phasellus blandit nisl magna, ut hendrerit risus tincidunt in.</p>
@@ -79,42 +83,42 @@
 		<div class="column">
 		
 
-						<div class="work-item-card">
-			<img src="/img/content/videoplaceholder.jpg" alt="Fifth Work Item Thumbnail" />
-			<div class="work-item-container">
-			<h4 class="fifty">
-			Fifth Work Item
-			</h4>
+			<div class="work-item-card" aria-label="Work item">
+	<img src="/img/content/videoplaceholder.jpg" alt="Fifth Work Item Thumbnail" />
+	<div class="work-item-container">
+		<h4 class="fifty">
+		Fifth Work Item
+		</h4>
+		
+		<p class="work-category"><a class=" no-border" href="/categories/video">Video</a></p>
+		
 			
-			<p class="work-category"><a class=" no-border" href="/categories/video">Video</a></p>
+			<p>Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et.</p>
 			
-				
-				<p>Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et.</p>
-				
-				<a class="work-item-read" href="http://dev.brianliston.com/work/fifth-work-item/">See the project</a>
-			</div>
-			</div>
+			<a class="work-item-read" href="http://dev.brianliston.com/work/fifth-work-item/">See the project</a>
+	</div>
+</div>
 
-						<div class="work-item-card">
-			<img src="/img/content/featured_images/tesla-vs-edison-pu-kickstarter.png" alt="Kickstarter Videos for Artana Thumbnail" />
-			<div class="work-item-container">
-			<h4 class="fifty">
-			Kickstarter Videos for Artana
-			</h4>
+			<div class="work-item-card" aria-label="Work item">
+	<img src="/img/content/featured_images/tesla-vs-edison-pu-kickstarter.png" alt="Kickstarter Videos for Artana Thumbnail" />
+	<div class="work-item-container">
+		<h4 class="fifty">
+		Kickstarter Videos for Artana
+		</h4>
+		
+		<p class="work-category"><a class=" no-border" href="/categories/video">Video</a></p>
+		
 			
-			<p class="work-category"><a class=" no-border" href="/categories/video">Video</a></p>
+			<p>Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et.</p>
 			
-				
-				<p>Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et.</p>
-				
-				<a class="work-item-read" href="http://dev.brianliston.com/work/kickstarter-videos-for-artana/">See the project</a>
-			</div>
-			</div></div>
+			<a class="work-item-read" href="http://dev.brianliston.com/work/kickstarter-videos-for-artana/">See the project</a>
+	</div>
+</div></div>
 
 	</section>
 </main>
 
-<footer>
+<footer role="contentinfo">
 
 	<ul>
 		<li><a href="/sitemap/">Sitemap</a></li>

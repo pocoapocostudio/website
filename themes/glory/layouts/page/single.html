@@ -1,10 +1,10 @@
 {{ partial "header.html" . }}
 
-<body onload="setFont();" class="page">
+<body class="page">
 
 {{ partial "sub-header.html" . }}
 
-<main>
+<main aria-label="{{ .Title }} page">
 
 <section>
 <h3 class="page-title">{{ .Title }}</h3>

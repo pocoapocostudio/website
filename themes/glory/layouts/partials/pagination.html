@@ -1,6 +1,6 @@
 {{ $pag := $.Paginator }}
     {{ if gt $pag.TotalPages 1 }}
-    <nav class="blog-nav">
+    <nav class="blog-nav" aria-label="Navigation for newer and older posts and work">
         {{ with $pag.First }}
         {{ end }}
         <p class="blog-previous

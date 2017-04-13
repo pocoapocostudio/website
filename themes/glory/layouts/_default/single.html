@@ -1,13 +1,13 @@
 {{ partial "header.html" . }}
 
-<body onload="setFont();" class="post">
+<body class="post">
 
 {{ partial "sub-header.html" . }}
 
-<main>
+<main aria-label="Blog post">
 
 <article>
-<p class="up-a-level"><a href="/blog">Up to Blog</a></p>
+<p class="up-a-level"><a href="/blog">To Blog</a></p>
 <h3 class="blog-title">{{ .Title }}</h3>
 <p class="blog-date"><time datetime="2017-04-07 20:00">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
 
@@ -24,7 +24,7 @@
 
 </article>
 
-<aside id="tags" class="container-element">
+<aside id="tags" class="container-element" aria-label="All blog post tags">
 	<dl class="horizontal-tags">
 		<dt>Tags:</dt>
 

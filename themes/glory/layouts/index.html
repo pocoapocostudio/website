@@ -1,29 +1,33 @@
 {{ partial "header.html" . }}
 
-<body onload="setFont();" class="home">
+<body class="home">
 
 {{ partial "sub-header.html" . }}
 
 <main>
-	<section id="introduction" class="introduction">
+	<section id="introduction" class="introduction" aria-label="About me">
 		<h3 class="one-fifty">Design for video, web and emerging media.</h3>
 		<span class="fifty">I help creative people make beautiful things for the digital world.</span>
 	</section>
 
-	<div id="latest-blog-post" class="latest-blog-post container-element">
+	<section id="latest-blog-post" class="latest-blog-post container-element" aria-label="Most recent post from my blog">
 	{{ range first 1 (where .Data.Pages "Section" "blog") }}
 		<h3 class="latest-blog-post-title">Latest blog post: <a href="{{ .Permalink }}" class="no-border">{{ .Title }}</a></h3>
 		<!-- <a class="read-more twenty-five-percent-bigger" href="post.html">Read</a> -->
     {{- end -}}
-	</div>
+	</section>
+
+	<hr />
 	
-	<section id="featured-video">
+	<section id="featured-video" aria-label="Video introduction">
 		<h3 class="title-text">Who am I?</h3>
 		<p class="title-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		<img src="/img/content/videoplaceholder.jpg" width="100%" alt="placeholder" />
 	</section>
 
-	<section id="work-list">
+	<hr />
+
+	<section id="work-list" aria-label="Most recent work I've made">
 
 		<h3 class="title-text">Work I've made</h3>
 		<p class="title-description">Phasellus blandit nisl magna, ut hendrerit risus tincidunt in.</p>

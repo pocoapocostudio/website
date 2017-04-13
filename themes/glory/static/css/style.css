@@ -53,6 +53,10 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 { line-height: 1.2em; margin: 0; font-size: 1rem; }
+
+	hr {
+		border-width: 0;
+	}
 /*
 	h1, .one-hundred-fifty-percent { font-size: 2.5em; }
 	h2, .one-hundred-twenty-five-percent { font-size: 2.25em; }
@@ -600,6 +604,10 @@
 	.related-work-items-title {
 		margin-bottom: .25em;
 		font-size: 1.25em
+	}
+
+	.related-work-items .title-text {
+		margin-bottom: .25em
 	}
 
 @media screen and (max-width: 1024px) {

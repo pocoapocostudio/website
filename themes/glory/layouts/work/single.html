@@ -1,10 +1,10 @@
 {{ partial "header.html" . }}
 
-<body onload="setFont();" class="post work-item">
+<body class="post work-item">
 
 {{ partial "sub-header.html" . }}
 
-<main>
+<main aria-label="Work item">
 
 <article>
 	<p class="up-a-level">
@@ -23,7 +23,7 @@
 
 </article>
 
-<aside id="tags" class="container-element">
+<aside id="tags" class="container-element" aria-label="All work item categories">
 	<dl class="horizontal-tags">
 		<dt>Browse Work:</dt>
 
@@ -34,12 +34,12 @@
 	</dl>
 </aside>
 
-<nav class="related-work-items">
+<nav class="related-work-items" aria-label="Related work items">
 
 	{{ $page_link := .Permalink }}
 	{{ $categories := .Params.categories }}
 
-	<h4>More {{ delimit $categories ", "}} Projects</h4>
+	<h4 class="title-text">More {{ delimit $categories ", "}} Projects</h4>
 
 	{{ range $page := .Site.Pages }}
 		{{ $has_common_categories := intersect $categories .Params.categories | len | lt 0 }}

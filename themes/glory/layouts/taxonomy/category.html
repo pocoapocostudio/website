@@ -1,27 +1,26 @@
 {{ partial "header.html" . }}
 
-<body onload="setFont();" class="category">
+<body class="category">
 
 {{ partial "sub-header.html" . }}
 
 <main>
-	<section id="work-list">
 		<p class="up-a-level">
-		<a href="/work">Up to Work page</a>
+		<a href="/work">To Work page</a>
 	</p>
 
 <h3 class="page-title">{{ .Title }} Projects</h3>
 <p class="page-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit nisl magna, ut hendrerit risus tincidunt in.</p>
 
-		<div class="column no-margin">
+		<section id="work-cards" aria-label="Work items in {{ .Title }} category">
 		{{ $paginator := .Paginate (where .Data.Pages "Section" "work") }}
 			{{ range $paginator.Pages }}
 				{{ partial "work-card.html" . }}
 	    	{{- end -}}
 
-		</div>
+		</section>
 
-	<aside id="tags" class="container-element work-categories">
+	<aside id="tags" class="container-element work-categories" aria-label="All work item categories">
 	
 		<dl class="horizontal-tags">
 			<dt>Browse Work:</dt>
@@ -33,8 +32,6 @@
 		</dl>
 
 	</aside>
-
-	</section>
 
 {{ partial "pagination.html" . }}
 
