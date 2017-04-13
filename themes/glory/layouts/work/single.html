@@ -28,7 +28,7 @@
 		<dt>Browse Work:</dt>
 
 		{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-			<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></dd>
+			<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>
 		{{ end }}
 	
 	</dl>

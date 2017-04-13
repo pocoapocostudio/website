@@ -29,7 +29,7 @@
 		<dt>Tags:</dt>
 
 		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-			<dd><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></dd>
+			<dd><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>
 		{{ end }}
 	
 	</dl>

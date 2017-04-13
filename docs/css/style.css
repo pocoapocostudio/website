@@ -202,6 +202,7 @@
 		color: #fff;
 		float: left;
 		font-weight: bold;
+		font-size: 1.25em;
 	}
 
 	.text-size {
@@ -712,10 +713,18 @@
 }
 
 .sitemap ul {
-	list-style: square;
+	list-style: none;
 	line-height: 1.75em;
 }
 
 .sitemap-margin {
 	margin-bottom: .25em;
+}
+
+.sitemap-first-level {
+	padding: 0;
+}
+
+.sitemap-title {
+	margin-top: 1em;
 }
