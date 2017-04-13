@@ -17,25 +17,24 @@
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/about/">About</a></li>
-<li><a href="/blog/">Blog</a></li>
+<li><a href="/blog/" class="sitemap-margin">Blog</a></li>
 <ul>
-<li>Blog posts listed by tag</li>
+<li class="sitemap-margin">Blog posts listed by tag:</li>
 {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
 	<li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
-	<ul>
+	<ul class="sitemap-margin">
 		{{ range $taxonomy.Pages }} 
 			<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
 		{{ end }}
 	</ul>
 {{ end }}
 </ul>
-
 <li><a href="/work">Work</a></li>
 <ul>
-<li>Work listed by category</li>
+<li class="sitemap-margin">Work listed by category:</li>
 {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
 	<li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
-	<ul>
+	<ul class="sitemap-margin">
 		{{ range $taxonomy.Pages }} 
 			<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
 		{{ end }}

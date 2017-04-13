@@ -16,6 +16,7 @@
 # Taxonomies
 	## Tags
 	## Categories
+# Sitemap
 
 
 # Screen sizes
@@ -702,4 +703,19 @@
 .page-title {
 	margin-left: 0;
 	margin-top: .75em;
+}
+
+/* Sitemap */
+
+.sitemap {
+	font-size: 1.25em
+}
+
+.sitemap ul {
+	list-style: square;
+	line-height: 1.75em;
+}
+
+.sitemap-margin {
+	margin-bottom: .25em;
 }
