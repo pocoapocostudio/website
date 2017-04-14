@@ -129,7 +129,7 @@
 	}
 
 	.logo {
-		padding-top: 1em;
+		padding-top: 1.25em;
 		font-family: "Zona Pro Bold", sans-serif;
 		color: #fff;
 		font-size: 5em;
@@ -346,7 +346,9 @@
 /* # Home */
 
 	.title-text-introduction {
-		margin: 0;
+		font-size: 2.5em;
+		line-height: 1.1em;
+		margin-bottom: .25em;
 	}
 
 	.title-text {
