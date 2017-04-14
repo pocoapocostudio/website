@@ -1,9 +1,10 @@
 theme = "glory"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Brian Liston | Digital Design and Video Production in Denver, Colorado"
 baseURL = "http://dev.brianliston.com/"
 publishDir = "docs"
 paginate = 8
+pluralizeListTitles = false
 
 [taxonomies]
 tag = "tags"
