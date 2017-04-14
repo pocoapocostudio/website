@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://dev.brianliston.com/index.xml</link>
+    <link>http://dev.brianliston.com/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Apr 2017 16:28:50 -0600</lastBuildDate>
-    <atom:link href="http://dev.brianliston.com/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://dev.brianliston.com/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Sitemap</title>
@@ -15,8 +17,7 @@
       <pubDate>Wed, 12 Apr 2017 16:28:50 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/sitemap/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s the sitemap&lt;/p&gt;
-</description>
+      <description>Here&amp;rsquo;s the sitemap</description>
     </item>
     
     <item>
@@ -25,8 +26,7 @@
       <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/work/fifth-work-item/</guid>
-      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;
-</description>
+      <description>Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et.</description>
     </item>
     
     <item>
@@ -35,21 +35,7 @@
       <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/work/kickstarter-videos-for-artana/</guid>
-      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;
-
-&lt;p&gt;Powering Up! is an expansion to the hit board game Tesla vs. Edison. Funded over 3000%, Powering Up! raised 3/4ths the money of its base game, Tesla vs. Edison.&lt;/p&gt;
-
-&lt;p&gt;For this Kickstarter campaign, I created the video, campaign images, and other marketing assets.&lt;/p&gt;
-
-&lt;div class=&#34;post-media&#34;&gt;
-  &lt;img src=&#34;http://dev.brianliston.com/img/content/artana/tvepu-component-layout.jpg&#34; alt=&#34;Tesla Vs. Edison Componenet layout&#34;&gt;
-  &lt;p&gt;3D Layout for Tesla vs. Edison: Powering Up!&lt;/p&gt;
-&lt;/div&gt; 
-
-&lt;p&gt;Neque porro quisquam est qui dolorem
-ipsum quia dolor sit amet consectetur
-adipisci velit&lt;/p&gt;
-</description>
+      <description>Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et.</description>
     </item>
     
     <item>
@@ -58,15 +44,7 @@ adipisci velit&lt;/p&gt;
       <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/work/marvin-and-the-moths-book-trailer/</guid>
-      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;
-
-&lt;p&gt;Authors Jon Follett and Matthew Holm contacted me to create a trailer for their latest book. The project time frame was short&amp;ndash;the book release was only two weeks away.&lt;/p&gt;
-
-&lt;p&gt;Using black-and-white illustrations created for the book by Matthew, I created a “creature feature” style trailer inspired by genre classics like Tarantula, The Day the Earth Stood Still, and other giant monster movies.&lt;/p&gt;
-
-&lt;div class=&#34;post-media&#34;&gt;
-    &lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&#39;embed-container&#39;&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/183347030&#34; width=&#34;1280&#34; height=&#34;720&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;/div&gt;</description>
+      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -75,20 +53,7 @@ adipisci velit&lt;/p&gt;
       <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/work/second-work-item/</guid>
-      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;
-
-&lt;p&gt;Neque porro quisquam est qui dolorem
-ipsum quia dolor sit amet consectetur
-adipisci velit&lt;/p&gt;
-
-&lt;p&gt;Neque porro quisquam est qui dolorem
-ipsum quia dolor sit amet consectetur
-adipisci velit&lt;/p&gt;
-
-&lt;p&gt;Neque porro quisquam est qui dolorem
-ipsum quia dolor sit amet consectetur
-adipisci velit&lt;/p&gt;
-</description>
+      <description>Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et.</description>
     </item>
     
     <item>
@@ -97,8 +62,7 @@ adipisci velit&lt;/p&gt;
       <pubDate>Sun, 09 Apr 2017 14:55:48 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/work/third-work-item/</guid>
-      <description>&lt;p&gt;Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.&lt;/p&gt;
-</description>
+      <description>Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et.</description>
     </item>
     
     <item>
@@ -107,10 +71,7 @@ adipisci velit&lt;/p&gt;
       <pubDate>Sun, 09 Apr 2017 14:32:19 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/about/</guid>
-      <description>&lt;p&gt;Neque porro quisquam est qui dolorem
-ipsum quia dolor sit amet consectetur
-adipisci velit&lt;/p&gt;
-</description>
+      <description>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit</description>
     </item>
     
     <item>
@@ -119,14 +80,8 @@ adipisci velit&lt;/p&gt;
       <pubDate>Sun, 09 Apr 2017 14:02:18 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/blog/second-post/</guid>
-      <description>&lt;p&gt;In vel ligula tortor. Aliquam erat volutpat.
-Pellentesque at felis eu quam tincidunt dignissim.
-Nulla facilisi.&lt;/p&gt;
-
-&lt;p&gt;Pellentesque tempus nisi et interdum convallis.
-In quam ante, vulputate at massa et, rutrum
-gravida dui. Phasellus tristique libero at ex.&lt;/p&gt;
-</description>
+      <description>In vel ligula tortor. Aliquam erat volutpat. Pellentesque at felis eu quam tincidunt dignissim. Nulla facilisi.
+Pellentesque tempus nisi et interdum convallis. In quam ante, vulputate at massa et, rutrum gravida dui. Phasellus tristique libero at ex.</description>
     </item>
     
     <item>
@@ -135,14 +90,8 @@ gravida dui. Phasellus tristique libero at ex.&lt;/p&gt;
       <pubDate>Thu, 09 Mar 2017 14:02:18 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/blog/first-post/</guid>
-      <description>&lt;p&gt;In vel ligula tortor. Aliquam erat volutpat.
-Pellentesque at felis eu quam tincidunt dignissim.
-Nulla facilisi.&lt;/p&gt;
-
-&lt;p&gt;Pellentesque tempus nisi et interdum convallis.
-In quam ante, vulputate at massa et, rutrum
-gravida dui. Phasellus tristique libero at ex.&lt;/p&gt;
-</description>
+      <description>In vel ligula tortor. Aliquam erat volutpat. Pellentesque at felis eu quam tincidunt dignissim. Nulla facilisi.
+Pellentesque tempus nisi et interdum convallis. In quam ante, vulputate at massa et, rutrum gravida dui. Phasellus tristique libero at ex.</description>
     </item>
     
   </channel>

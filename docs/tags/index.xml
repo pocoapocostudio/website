@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on My New Hugo Site</title>
+    <link>http://dev.brianliston.com/tags/</link>
+    <description>Recent content in Tags on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Apr 2017 14:02:18 -0600</lastBuildDate>
+    
+	<atom:link href="http://dev.brianliston.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Amazing</title>
+      <link>http://dev.brianliston.com/tags/amazing/</link>
+      <pubDate>Sun, 09 Apr 2017 14:02:18 -0600</pubDate>
+      
+      <guid>http://dev.brianliston.com/tags/amazing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart</title>
+      <link>http://dev.brianliston.com/tags/smart/</link>
+      <pubDate>Sun, 09 Apr 2017 14:02:18 -0600</pubDate>
+      
+      <guid>http://dev.brianliston.com/tags/smart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wow</title>
+      <link>http://dev.brianliston.com/tags/wow/</link>
+      <pubDate>Sun, 09 Apr 2017 14:02:18 -0600</pubDate>
+      
+      <guid>http://dev.brianliston.com/tags/wow/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

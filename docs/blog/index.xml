@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on My New Hugo Site</title>
-    <link>http://dev.brianliston.com/blog/index.xml</link>
+    <link>http://dev.brianliston.com/blog/</link>
     <description>Recent content in Blogs on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Apr 2017 14:02:18 -0600</lastBuildDate>
-    <atom:link href="http://dev.brianliston.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://dev.brianliston.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Second Post</title>
@@ -15,14 +17,8 @@
       <pubDate>Sun, 09 Apr 2017 14:02:18 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/blog/second-post/</guid>
-      <description>&lt;p&gt;In vel ligula tortor. Aliquam erat volutpat.
-Pellentesque at felis eu quam tincidunt dignissim.
-Nulla facilisi.&lt;/p&gt;
-
-&lt;p&gt;Pellentesque tempus nisi et interdum convallis.
-In quam ante, vulputate at massa et, rutrum
-gravida dui. Phasellus tristique libero at ex.&lt;/p&gt;
-</description>
+      <description>In vel ligula tortor. Aliquam erat volutpat. Pellentesque at felis eu quam tincidunt dignissim. Nulla facilisi.
+Pellentesque tempus nisi et interdum convallis. In quam ante, vulputate at massa et, rutrum gravida dui. Phasellus tristique libero at ex.</description>
     </item>
     
     <item>
@@ -31,14 +27,8 @@ gravida dui. Phasellus tristique libero at ex.&lt;/p&gt;
       <pubDate>Thu, 09 Mar 2017 14:02:18 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/blog/first-post/</guid>
-      <description>&lt;p&gt;In vel ligula tortor. Aliquam erat volutpat.
-Pellentesque at felis eu quam tincidunt dignissim.
-Nulla facilisi.&lt;/p&gt;
-
-&lt;p&gt;Pellentesque tempus nisi et interdum convallis.
-In quam ante, vulputate at massa et, rutrum
-gravida dui. Phasellus tristique libero at ex.&lt;/p&gt;
-</description>
+      <description>In vel ligula tortor. Aliquam erat volutpat. Pellentesque at felis eu quam tincidunt dignissim. Nulla facilisi.
+Pellentesque tempus nisi et interdum convallis. In quam ante, vulputate at massa et, rutrum gravida dui. Phasellus tristique libero at ex.</description>
     </item>
     
   </channel>
