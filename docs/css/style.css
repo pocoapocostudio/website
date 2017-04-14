@@ -429,7 +429,7 @@
 
 	.blog aside {
 		width: 100%;
-		margin: 2.5em 0 2.5em 0;
+		margin-bottom: .75em;
 	}
 
 	.blog section {
@@ -636,7 +636,7 @@
 	.related-work-items {
 	    width: 1000px;
     	margin: 0 auto;
-    	padding-top: 3em;
+    	padding-top: 1em;
 	}
 
 	.related-work-items .work-item-card:nth-child(3n) { 
@@ -648,12 +648,13 @@
 	}
 
 	.related-work-items-title {
-		margin-bottom: .25em;
-		font-size: 1.25em
+		font-size: 1.25em;
+		margin: 1em 1em 1.25em 1em;
 	}
 
 	.related-work-items .title-text {
-		margin-bottom: .25em
+		margin-bottom: .5em;
+		margin-top: 0em;
 	}
 
 @media screen and (max-width: 1024px) {
@@ -671,6 +672,10 @@
 
 	.related-work-items {
 		width: 90%;
+	}
+
+	.related-work-items-title {
+		font-size: 1.5em;
 	}
 }
 
