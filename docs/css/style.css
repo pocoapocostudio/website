@@ -155,6 +155,26 @@
 		font-size: .75em !important;
 	}
 
+	.horizontal-tags dd {
+		padding: .75em;
+		background-color: #d6320b;
+		border-radius: 3px;
+		box-shadow: 0 0 .5em #dbdbdb;
+	}
+	.horizontal-tags a {
+		color: #fff;
+		border-bottom: none;
+	}
+
+	.horizontal-tags dd, .horizontal-tags dt {
+		display: inline-block;
+		margin: 0 .5em .75em 0;
+	}
+
+	.horizontal-tags dt {
+		font-weight: bold;
+	}
+
 	@media screen and (max-width: 1024px) {
 		body {
 			font-size: .9rem;
@@ -274,6 +294,11 @@
 		background-image: url("/img/theme/bgnd.jpg");
 	}
 
+@media screen and (max-width: 425px) {
+	header nav a {
+	    font-size: 1.3em;
+	}
+}
 
 /* ## Footer */
 
@@ -481,12 +506,6 @@
 		float: left;
 	}
 
-	.horizontal-tags {
-		margin: 0 auto;
-		padding: 1em;
-		font-size: 1.25em;	
-	}
-
 	.vertical-tags {
 		margin: 0 auto;
 		padding: 1em;
@@ -500,12 +519,7 @@
 
 	.container-element {
 		background-color: #fff;
-		box-shadow: 0 0 10em #dbdbdb;
-	}
-
-	.horizontal-tags dd, .horizontal-tags dt {
-		display: inline-block;
-		margin: 0 .5em 0 0;
+		box-shadow: 0 0 .5em #efefef;
 	}
 
 	.post article p {
@@ -565,7 +579,7 @@
 		background-color: #fff;
 		width:49%;
 		margin-bottom: 2em;
-		box-shadow: 0 0 1em #dbdbdb;
+		box-shadow: 0 0 .5em #efefef;
 	}
 	
 	.work-item-card:nth-child(even) {
