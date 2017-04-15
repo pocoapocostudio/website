@@ -3,9 +3,7 @@
 		<img src="{{ with .Params.featured_image }}{{ . }}{{ end }}" alt="{{ .Title }} Thumbnail" />
 		
 		<h4 class="work-item-title">
-		<span class="work-item-title-container">
 		{{ .Title }}
-		</span>
 		</h4>
 		</a>
 		{{ range .Params.categories }}

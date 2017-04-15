@@ -58,14 +58,13 @@
   </url>
   
   <url>
-    <loc>http://dev.brianliston.com/</loc>
-    <lastmod>2017-04-12T16:28:50-06:00</lastmod>
+    <loc>http://dev.brianliston.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://dev.brianliston.com/categories/</loc>
-    <priority>0</priority>
+    <loc>http://dev.brianliston.com/</loc>
+    <lastmod>2017-04-12T16:28:50-06:00</lastmod>
   </url>
   
   <url>
