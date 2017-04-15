@@ -516,6 +516,10 @@
 		box-shadow: 0 0 .5em #efefef;
 		height: 35em;
 	}
+
+	.related-work-items .work-item-card {
+		height: 20.5em;
+	}
 	
 	.work-item-card:nth-child(even) {
 		margin-left: 1.5%;
@@ -542,6 +546,7 @@
 		font-weight: bold;
 		font-size: 1.5em;
 		margin-left: 2rem;
+		margin-right: 2em;
 	}
 
 	.work-category {
