@@ -9,34 +9,22 @@
 <link href="/css/style.css" rel="stylesheet" type="text/css">
 
 <script src="https://use.fontawesome.com/e31a26fe5d.js"></script>
-<script type="text/javascript" src="/js/fontsize.js"></script>
-<script type="text/javascript" src="/js/totop.js"></script>
 
-<title>Brian Liston | Design and video production in Denver, Colorado</title>
+<title>Brian Liston | Work</title>
 
 </head>
 
-  <nav class="sidebar-nav">
-        
-        
-    </nav>
-
-<body onload="setFont();" class="work">
+<body class="work">
 
 <header>
 
-<div id="text-size" class="text-size">
+<a href="#content" class="skip">Skip to main content</a>
 
-<button type="button" onclick="resizeFont(-1);" class="text-size-button"><span class="button-smaller">A</span></button>
-<button type="button" onclick="resizeFont(1);" class="text-size-button"><span class="button-bigger">A</span></button>
+<h1 class="logo">brian<span class="underscore">_</span>liston</h1>
 
-</div>
+<h2 class="tagline">Video production and digital design in Denver, Colorado</h2>
 
-<a href="/" rel="home"><span class="logo">brian<span class="underscore">_</span>liston</span></a>
-
-<h5 class="tagline">Video production and digital design in Denver, Colorado</h5>
-
-<nav>
+<nav aria-label="Main website navigation">
 	<a href="/">Home</a>
 
 	<a href="/blog" 
@@ -68,48 +56,49 @@
 
 </header>
 
-<main>
-	<section id="work-list">
-		<h1>Selected Work</h1>
-	<p class="page-description">Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et. Sed bibendum vestibulum molestie. Nam eu mauris felis. Vivamus dictum leo non dolor iaculis, ut tempus nunc imperdiet.</p>
+<main id="content">
+		<h3 class="one-fifty">Selected Work</h3>
+	<p class="page-description">This is the Work page tagline</p>
 	
-	<aside id="tags" class="container-element work-categories twenty-five-percent-bigger">
+	<aside id="tags" class="work-categories" aria-label="All work item categories">
 	
 		<dl class="horizontal-tags">
 			<dt>Browse Work:</dt>
 
 			
-				<dd><a href="/categories/video">video</a></dd>
+				<dd><a href="/categories/design">Design</a></dd>
 			
-				<dd><a href="/categories/web">web</a></dd>
+				<dd><a href="/categories/video">Video</a></dd>
+			
+				<dd><a href="/categories/web">Web</a></dd>
 			
 
 		</dl>
 
 	</aside>
 
-	<section id="work-cards"> 
-	
-			
-							<div class="work-item-card">
-			<img src="/img/content/featured_images/tesla-vs-edison-pu-kickstarter.png" alt="Kickstarter Videos for Artana Thumbnail" />
-			<div class="work-item-container">
-			<h5>
-			<a href="http://dev.brianliston.com/work/kickstarter-videos-for-artana/" class="no-border">Kickstarter Videos for Artana</a>
-			</h5>
-			
-			<p class="work-category"><a class=" no-border" href="/categories/video">Video</a></p>
-			
+		<section id="work-cards" aria-label="Work item list"> 
+		
 				
-				<p>Mauris id urna augue. Aliquam placerat vehicula lacus et feugiat. Nullam et gravida nisi. Vivamus in leo suscipit, aliquam diam ut, convallis nisl. Donec gravida finibus lacus, at efficitur diam mattis vel. Nullam vestibulum et quam id venenatis. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ullamcorper justo felis, a commodo massa dapibus vitae. Quisque ornare ornare lacus. Vivamus mattis sem odio, sed accumsan risus porta et.</p>
-				
-				<a class="work-item-read twenty-five-percent-bigger" href="http://dev.brianliston.com/work/kickstarter-videos-for-artana/">See the project</a>
-			</div>
-			</div></section>
+					<div class="work-item-card" aria-label="Work item">
+	<a class="no-border" href="http://dev.brianliston.com/work/xavier-lab-website/">
+		<img src="/img/content/featured_images/xavier-lab-website.jpg" alt="Website for The Xavier Lab Thumbnail" />
+		
+		<h4 class="work-item-title">
+		Website for The Xavier Lab
+		</h4>
+		</a>
+		
+		<p class="work-category"><a class=" no-border" href="/categories/web">Web</a></p>
+		
+		<p>The Xavier Lab at Massachusetts General Hospital and the Broad Institute needed to refresh their web presence. They had the content, their problem was its presentation. Their website was information rich, but ugly and difficult to keep updated.</p>
+
+<p></p>
+</div></section>
 
 
     
-    <nav class="blog-nav">
+    <nav class="blog-nav" aria-label="Navigation for newer and older posts and work">
         
         
         <p class="blog-previous
@@ -118,22 +107,21 @@
         <a href="/work/" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-chevron-left fa-custom" aria-hidden="true"></i> Next</span></p>
 
         <p class="blog-next
-        
+         disabled 
         ">
-        <a href="/work/page/3/" aria-label="Next"><span aria-hidden="true">Previous <i class="fa fa-chevron-right fa-custom" aria-hidden="true"></i></span></a>
+        <a href="" aria-label="Next"><span aria-hidden="true">Previous <i class="fa fa-chevron-right fa-custom" aria-hidden="true"></i></span></a>
         </p>
         
         
     </ul>
 
+
 </main>
 
 <footer>
 
-<button onclick="topFunction()" id="to-top" class="text-size-button button-smaller" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-
 	<ul>
-		
+		<li><a href="/sitemap/">Sitemap</a></li>
 		<li>Generated by <a href="https://gohugo.io/">Hugo</a></li>
 		
 		<li>Copyright 2017 Brian Liston</li>
