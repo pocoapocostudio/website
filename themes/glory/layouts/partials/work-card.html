@@ -9,5 +9,5 @@
 		{{ range .Params.categories }}
 		<p class="work-category"><a class=" no-border" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></p>
 		{{ end }}
-		<p class="work-item-summary">{{ .Summary }}</p>
+		{{ .Summary }}
 </div>

@@ -152,6 +152,23 @@
 		margin: 0 .5em .75em 0;
 	}
 
+
+	.embed-container-four-three { 
+		position: relative;
+		padding-bottom: 58.25%;
+		height: 0; overflow: hidden;
+		max-width: 100%; height: auto;
+		margin-top: 2em !important;
+	} 
+
+	.embed-container-four-three iframe, .embed-container-four-three object, .embed-container-four-three embed { 
+		position: absolute; 
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
 @media screen and (max-width: 1024px) {
 		body {
 			font-size: .9rem;
@@ -165,6 +182,10 @@
 
 		.up-a-level {
 			width: initial;
+		}
+
+		.embed-container-four-three {
+			padding-bottom: 67.25% !important; 
 		}
 	}
 
@@ -399,7 +420,7 @@
 		width: 1280px;
 	}
 
-	.post-media p {
+	.post-media-description {
 		padding-top: .25em;
 		font-style: italic;
 		text-align: center;
@@ -493,11 +514,8 @@
 		width:49%;
 		margin-bottom: 2em;
 		box-shadow: 0 0 .5em #efefef;
+		height: 35em;
 	}
-
-	.work-item-summary {
-			margin: .5em 2em 1.5em 2em;
-		}
 	
 	.work-item-card:nth-child(even) {
 		margin-left: 1.5%;
@@ -505,6 +523,14 @@
 
 	.work-item-card img {
 		width: 100%;
+	}
+
+	.work-item-card p {
+		margin: .5em 2em 0 2em;
+	}
+
+	.work-item-card p:last-child {
+		margin-bottom: 2.5em;
 	}
 
 	.work-item-card a:hover, .work-item-card a {
