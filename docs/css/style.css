@@ -169,6 +169,10 @@
 		height: 100%;
 	}
 
+	.shadow {
+		box-shadow: .1em .1em .3em #e4e4e4;
+	}
+
 @media screen and (max-width: 1024px) {
 		body {
 			font-size: .9rem;
@@ -394,6 +398,10 @@
 
 	.post main {
 		width: 1280px;
+	}
+
+	.post p img {
+		width: 100%;
 	}
 
 
