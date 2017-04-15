@@ -1,15 +1,15 @@
 +++
-title = "Kickstarter videos and design for Artana Games"
+title = "Kickstarter Videos and Design for Artana Games"
 date = "2017-04-14T14:55:48-06:00"
 categories = [ "Video"]
-featured_image = "/img/content/featured_images/tesla-vs-edison-pu-kickstarter.png"
+featured_image = "/img/content/featured_images/artana-kickstarter-videos.png"
 +++
 
 Powering Up! is an expansion to the hit board game Tesla vs. Edison. Funded over 3000%, Powering Up! raised 3/4ths the money of its base game, Tesla vs. Edison. 
 
-For this Kickstarter campaign, I created the video, campaign images, and other marketing assets.
-
 <!--more-->
+
+For this Kickstarter campaign, I created the video, campaign images, and other marketing assets.
 
 <p>
     <p class="embed-container-four-three"><iframe src="https://player.vimeo.com/video/169941612" width="1000" height="750" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

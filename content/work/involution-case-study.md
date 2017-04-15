@@ -5,7 +5,7 @@ categories = [ "Video"]
 featured_image = "/img/content/featured_images/involution-case-study.jpg"
 +++
 
-DataXu had a unique vision to be a leader in the big data game. Thanks to the Involution Studios redesign that data now gives their clients many recommendations and methods to forecast, in real time, anytime. I shot and edited this video.
+DataXu had a unique vision to be a leader in the big data game. Thanks to the Involution Studios redesign that data now gives their clients many recommendations and methods to forecast, in real time, anytime.
 
 <!--more-->
 

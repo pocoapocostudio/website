@@ -1,13 +1,14 @@
 <div class="work-item-card" aria-label="Work item">
-	<a class="no-border" href="{{ .Permalink }}">
 		<img src="{{ with .Params.featured_image }}{{ . }}{{ end }}" alt="{{ .Title }} Thumbnail" />
-		
-		<h4 class="work-item-title">
-		{{ .Title }}
-		</h4>
-		</a>
-		{{ range .Params.categories }}
-		<p class="work-category"><a class=" no-border" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></p>
-		{{ end }}
-		{{ .Summary }}
+		<a href="{{ .Permalink }}">
+		<div class="work-item-container">
+			<h4 class="work-item-title">
+			{{ .Title }}
+			</h4>
+			</a>
+			{{ range .Params.categories }}
+			<p class="work-category"><a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></p>
+			{{ end }}
+			{{ .Summary }}
+		</div>
 </div>
