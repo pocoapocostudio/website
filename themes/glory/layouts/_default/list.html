@@ -16,12 +16,13 @@
 
 <a class="blog-link" href="{{ .Permalink }}">
 <article aria-label="Blog post">
-<h3 class="seventy-five">{{ .Title }}</h3>
-<p class="blog-date"><time datetime="2017-04-07 20:00">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
-<p>
-{{ .Summary }}
-</p>
-</article></a>
+	<h3 class="seventy-five">{{ .Title }}</h3>
+	<p class="blog-date"><time datetime="2017-04-07 20:00">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
+	<p>
+	{{ .Summary }}
+	</p>
+	</article>
+</a>
 
     {{- end -}}
 

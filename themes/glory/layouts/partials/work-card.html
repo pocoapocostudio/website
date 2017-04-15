@@ -1,11 +1,12 @@
 <div class="work-item-card" aria-label="Work item">
 	<a class="no-border" href="{{ .Permalink }}">
 		<img src="{{ with .Params.featured_image }}{{ . }}{{ end }}" alt="{{ .Title }} Thumbnail" />
-		<span class="work-item-title-container">
+		
 		<h4 class="work-item-title">
+		<span class="work-item-title-container">
 		{{ .Title }}
-		</h4>
 		</span>
+		</h4>
 		</a>
 		{{ range .Params.categories }}
 		<p class="work-category"><a class=" no-border" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></p>
