@@ -39,4 +39,4 @@ Eventually, I would like to make my site Level AA accessible. However, much of m
 
 Soon the VVS theme will be available for download. I am a little hesitant to release the code in its current state. I did a lot of testing, but not quite enough to be satisfied that it appears correctly for most users in most contexts. I also would like to get the theme professionally evaluated for accessibility. I did my best to ensure it meets the standards, but without feedback from disabled users it's difficult for me to know whether my implementations of the standards are useful.
 
-Meanwhile, you can grab the theme from this site's Github repo. Feedback appreciated!
+Meanwhile, you can grab the theme from <a href="https://github.com/bpliston/brianliston.com/tree/master/themes/vvs">this site's Github repo</a>. Feedback appreciated!
