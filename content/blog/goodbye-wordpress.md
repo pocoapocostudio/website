@@ -1,7 +1,7 @@
 +++
-date = "2017-04-15T14:02:18-06:00"
+date = "2017-04-16T14:02:18-06:00"
 title = "Goodbye forever WordPress... wait no I didn't mean it, noo"
-tags = [ "Smart", "Amazing", "Wow"]
+tags = [ "Design", "VVS", "Development", "Accessibility", "WCAG"]
 
 +++
 

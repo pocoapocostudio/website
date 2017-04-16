@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Brian Liston | Digital Design and Video Production in Denver, Colorado</title>
-    <link>http://www.brianliston.com/blog/</link>
-    <description>Recent content in Blog on Brian Liston | Digital Design and Video Production in Denver, Colorado</description>
+    <title>Wcag on Brian Liston | Digital Design and Video Production in Denver, Colorado</title>
+    <link>http://www.brianliston.com/tags/wcag/</link>
+    <description>Recent content in Wcag on Brian Liston | Digital Design and Video Production in Denver, Colorado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Apr 2017 14:02:18 -0600</lastBuildDate>
     
-	<atom:link href="http://www.brianliston.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.brianliston.com/tags/wcag/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
