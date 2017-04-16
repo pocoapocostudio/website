@@ -11,7 +11,7 @@
 <section aria-label="Blog posts in {{ .Title }} tag">
 
 <h3 class="page-title">Tag: {{ .Title }}</h3>
-<p class="page-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit nisl magna, ut hendrerit risus tincidunt in.</p>
+<p class="page-description"></p>
 
 		{{ $paginator := .Paginate (where .Data.Pages "Section" "blog") }}
 			{{ range $paginator.Pages }}
