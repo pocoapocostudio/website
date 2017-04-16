@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Smart on Brian Liston | Digital Design and Video Production in Denver, Colorado</title>
-    <link>http://dev.brianliston.com/tags/smart/</link>
+    <link>http://www.brianliston.com/tags/smart/</link>
     <description>Recent content in Smart on Brian Liston | Digital Design and Video Production in Denver, Colorado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Apr 2017 14:02:18 -0600</lastBuildDate>
     
-	<atom:link href="http://dev.brianliston.com/tags/smart/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.brianliston.com/tags/smart/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Goodbye forever WordPress... wait no I didn&#39;t mean it, noo</title>
-      <link>http://dev.brianliston.com/blog/goodbye-wordpress-hello-hugo/</link>
+      <link>http://www.brianliston.com/blog/goodbye-wordpress-hello-hugo/</link>
       <pubDate>Sat, 15 Apr 2017 14:02:18 -0600</pubDate>
       
-      <guid>http://dev.brianliston.com/blog/goodbye-wordpress-hello-hugo/</guid>
+      <guid>http://www.brianliston.com/blog/goodbye-wordpress-hello-hugo/</guid>
       <description>I&amp;rsquo;ve been having a lot of maintaining WordPress sites lately. Two different clients of mine have gotten their WordPress websites hacked in the last few months. Because WordPress is by far the most popular CMS right now, it attracts an inordinate amount of attention from hackers. Just last month a site I help maintain, viewpointmag.com suffered incredible amounts of downtime because of what likely was a days-long brute force attack. This is why I&amp;rsquo;ve decided to move my site from Wordpress to Hugo, a static site generator that creates websites which are lot less prone to hacking attempts.</description>
     </item>
     
