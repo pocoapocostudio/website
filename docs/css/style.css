@@ -229,7 +229,6 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-		box-shadow: 0 -.25em #ce3131 inset;
 	}
 
 	header a, header a:hover {
@@ -289,7 +288,6 @@
 		background-color: #f4f4f4;
 		color: #e0431e;
 		background-image: url("/img/theme/bgnd.jpg");
-		box-shadow: .20em -.20em #ce3131;
 	}
 
 @media screen and (max-width: 425px) {
