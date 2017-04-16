@@ -6,14 +6,13 @@
 
 <main id="content">
 	<section id="introduction" aria-label="About me">
-		<h3 class="title-text-introduction">Design for video, web and emerging media.</h3>
+		<h3 class="title-text-introduction">Design for video, web and digital media.</h3>
 		<span class="fifty">I help creative people make beautiful things for the digital world.</span>
 	</section>
 
 	<section id="latest-blog-post" class="latest-blog-post container-element" aria-label="Most recent post from my blog">
 	{{ range first 1 (where .Data.Pages "Section" "blog") }}
 		<h3 class="latest-blog-post-title">Latest blog post: <a href="{{ .Permalink }}" class="no-border">{{ .Title }}</a></h3>
-		<!-- <a class="read-more twenty-five-percent-bigger" href="post.html">Read</a> -->
     {{- end -}}
 	</section>
 
@@ -32,7 +31,7 @@
 	<section id="work-list" aria-label="Most recent work I've made">
 
 		<h3 class="title-text">Work I've made</h3>
-		<p class="title-description">Phasellus blandit nisl magna, ut hendrerit risus tincidunt in.</p>
+		<p class="title-description">My latest projects</p>
 
 		<div class="column">
 		{{ range first 2 (where .Data.Pages "Section" "work") }}
