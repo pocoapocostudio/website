@@ -4,5 +4,3 @@ title = "Sitemap"
 layout = "sitemap"
 
 +++
-
-Here's the sitemap
