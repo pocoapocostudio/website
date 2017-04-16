@@ -1,4 +1,4 @@
 +++
 title = "Work"
-tagline = "This is the Work page tagline"
+tagline = "Design, video and web projects I've worked on."
 +++
