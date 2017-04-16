@@ -12,14 +12,12 @@
     
     
     <item>
-      <title>Diamonds on me make me feel like Johnny Dang</title>
+      <title>Goodbye forever WordPress... wait no I didn&#39;t mean it, noo</title>
       <link>http://dev.brianliston.com/blog/goodbye-wordpress-hello-hugo/</link>
       <pubDate>Sat, 15 Apr 2017 14:02:18 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/blog/goodbye-wordpress-hello-hugo/</guid>
-      <description>I&amp;rsquo;ve been planning this redesign for about five months.
-See ya Wordpress.
-I&amp;rsquo;ve been having a lot of maintaining Wordpress sites lately. Two different clients of mine have gotten their Wordpress websites hacked in the last few months. Because Wordpress is by far the most popular CMS on out there right now, it attracts an inordinate amount of attention from hackers. Just last month a site I help maintain, viewpointmag.com suffered incredible amounts of downtime because of what likely was a days-long brute-force attack.</description>
+      <description>I&amp;rsquo;ve been having a lot of maintaining WordPress sites lately. Two different clients of mine have gotten their WordPress websites hacked in the last few months. Because WordPress is by far the most popular CMS right now, it attracts an inordinate amount of attention from hackers. Just last month a site I help maintain, viewpointmag.com suffered incredible amounts of downtime because of what likely was a days-long brute force attack. This is why I&amp;rsquo;ve decided to move my site from Wordpress to Hugo, a static site generator that creates websites which are lot less prone to hacking attempts.</description>
     </item>
     
     <item>
@@ -180,7 +178,7 @@ I&amp;rsquo;ve been having a lot of maintaining Wordpress sites lately. Two diff
       <pubDate>Sun, 09 Apr 2017 14:32:19 -0600</pubDate>
       
       <guid>http://dev.brianliston.com/about/</guid>
-      <description>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit</description>
+      <description>Brian is a designer and visual artist with a background in graphic design, film and art history. He specializes in time-based media design and strives to create beautiful things in every medium available to him. Brian is a graduate of Columbus College of Art &amp;amp; Design.</description>
     </item>
     
   </channel>
