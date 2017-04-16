@@ -552,7 +552,7 @@
 	}
 
 	.related-work-items .work-item-card {
-		height: 20.5em;
+		height: 21em;
 	}
 	
 	.work-item-card img {
@@ -623,7 +623,6 @@
 @media screen and (max-width: 1024px) {
 	.work-item-card {
 		width: 100%;
-		height: 50em;
 	}
 
 	.work-item-card:nth-child(even) {
@@ -645,6 +644,10 @@
 	.work-item-title-container {
 		margin: 0 2.5em;
 	}
+
+	.related-work-items .work-item-card {
+		height: initial;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -655,7 +658,7 @@
 
 @media screen and (max-width: 425px) {
 	.work-item-card {
-			height: 38em;
+			height: initial;
 		}
 }
 
