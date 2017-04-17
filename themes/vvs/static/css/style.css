@@ -540,7 +540,7 @@
 		box-sizing: border-box;
 		margin-bottom: .25em;
 		box-shadow: 0 0 .5em #efefef;
-		height: 35em;
+		height: 35em;;
 		display: inline-block;
 		width: 49%;
 		float: left;
@@ -623,6 +623,7 @@
 @media screen and (max-width: 1024px) {
 	.work-item-card {
 		width: 100%;
+		height: initial;
 	}
 
 	.work-item-card:nth-child(even) {
@@ -648,18 +649,6 @@
 	.related-work-items .work-item-card {
 		height: initial;
 	}
-}
-
-@media screen and (max-width: 768px) {
-	.work-item-card {
-			height: 41em;
-		}
-}
-
-@media screen and (max-width: 425px) {
-	.work-item-card {
-			height: initial;
-		}
 }
 
 /* # About */
