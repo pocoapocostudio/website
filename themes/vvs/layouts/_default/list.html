@@ -29,14 +29,7 @@
 </section>
 
 <aside id="tags" aria-label="All blog post tags">
-	<dl class="blog-tags">
-		<dt>Browse by tag:</dt>
-
-		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-			<dd><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>
-		{{ end }}
-	
-	</dl>
+	{{ partial "tags.html" . }}
 </aside>
 
 {{ partial "pagination.html" . }}

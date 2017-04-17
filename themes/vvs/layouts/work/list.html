@@ -8,26 +8,19 @@
 		<h3 class="one-fifty">Selected Work</h3>
 	<p class="page-description">{{ with .Params.tagline }}{{ . }}{{ end }}</p>
 	
-	<aside id="tags" class="work-categories-container" aria-label="All work item categories">
+	<aside id="categories" class="work-categories-container" aria-label="All work item categories">
 	
-		<dl class="work-categories">
-			<dt>Browse project types:</dt>
+		{{ partial "categories.html" . }}
 
-			{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-				<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>
-			{{ end }}
+</aside>
 
-		</dl>
+<section id="work-cards" aria-label="Work item list"> 
+	{{ $paginator := .Paginate (where .Data.Pages "Type" "work") }}
+			{{ range $paginator.Pages }}
+				{{ partial "work-card.html" . }}
+	    	{{- end -}}
 
-	</aside>
-
-		<section id="work-cards" aria-label="Work item list"> 
-		{{ $paginator := .Paginate (where .Data.Pages "Type" "work") }}
-				{{ range $paginator.Pages }}
-					{{ partial "work-card.html" . }}
-		    	{{- end -}}
-
-		</section>
+</section>
 
 {{ partial "pagination.html" . }}
 

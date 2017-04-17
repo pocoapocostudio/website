@@ -1,0 +1,8 @@
+<dl class="blog-tags">
+	<dt>Tags:</dt>
+	{{ $currenttax := .Title }}
+	{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+		<dd {{ if eq $currenttax ($name | title) }}class="selected-tag"{{ end }} ><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}"><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>
+	{{ end }}
+	
+</dl>

@@ -23,15 +23,8 @@
 
 </article>
 
-<aside id="tags" aria-label="All work item categories">
-	<dl class="work-categories">
-		<dt>Browse other projects:</dt>
-
-		{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-			<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>
-		{{ end }}
-	
-	</dl>
+<aside id="categories" aria-label="All work item categories">
+		{{ partial "categories.html" . }}
 </aside>
 
 <nav class="related-work-items" aria-label="Related work items">
