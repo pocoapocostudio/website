@@ -32,8 +32,9 @@
 <aside id="tags" aria-label="All blog post categories">
 	<dl class="horizontal-tags">
 		<dt>Tags:</dt>
+		{{ $currenttax := .Title }}
 		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-			<dd><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>
+			<dd {{ if eq $currenttax ($name | title) }}class="selected-tax"{{ end }} ><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}"><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>
 		{{ end }}
 	
 	</dl>

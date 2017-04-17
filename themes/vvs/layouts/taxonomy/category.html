@@ -25,8 +25,10 @@
 		<dl class="horizontal-tags">
 			<dt>Browse Work:</dt>
 
+			{{ $currenttax := .Title }}
+
 			{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-				<dd><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>
+				<dd {{ if eq $currenttax ($name | title) }}class="selected-tax"{{ end }} ><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>
 			{{ end }}
 
 		</dl>

@@ -670,6 +670,15 @@
 
 /* # Taxonomies */
 
+	.selected-tax a {
+		color: #d6320b;
+	}
+
+	.selected-tax {
+		background:rgba(0,0,0,0) !important;
+		border: 1px solid #d6320b;
+	}
+
 /* ## Tags */
 
 /* ##  Categories */
