@@ -15,7 +15,7 @@ At the same time, I found it to be too difficult for non-technical users. The co
 
 <div class="post-media">
     <img src="/img/content/blog/2017-redesign/site-comps.jpg" alt="Draft layouts for my website redesign" />
-            <p class="post-media-description">The evolution of this site's home page, December '16' to March '17</p>
+            <p class="post-media-description">The evolution of this site's home page, December '16 to March '17</p>
 </div>
 
 <span id="theme">**VVS Theme**</span>
