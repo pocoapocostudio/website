@@ -25,8 +25,8 @@
 </article>
 
 <aside id="tags" aria-label="All blog post tags">
-	<dl class="horizontal-tags blog-tags">
-		<dt>Tags:</dt>
+	<dl class="blog-tags">
+		<dt>Post tags:</dt>
 
 		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
 			<dd><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name | title }}</a></dd>

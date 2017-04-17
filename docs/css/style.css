@@ -130,28 +130,6 @@
 		font-size: .75em !important;
 	}
 
-	.horizontal-tags dd {
-		padding: .75em;
-		background-color: #d6320b;
-		border-radius: 3px;
-		box-shadow: 0 0 .5em #dbdbdb;
-	}
-
-	.horizontal-tags dt {
-		font-weight: bold;
-		font-size: 1.25em;
-	}
-
-	.horizontal-tags a {
-		color: #fff;
-		border-bottom: none;
-	}
-
-	.horizontal-tags dd, .horizontal-tags dt {
-		display: inline-block;
-		margin: 0 .5em .75em 0;
-	}
-
 	.embed-container{ 
 		position: relative;
 		padding-bottom: 56.25%;
@@ -592,7 +570,7 @@
 		font-size: 1.25em
 	}
 
-	.work-categories {
+	.work-categories-container {
 		margin: 2em 0;
 	}
 
@@ -659,18 +637,75 @@
 
 /* # Taxonomies */
 
-	.selected-tax a {
-		color: #d6320b;
+/* ## Tags */
+
+	.blog-tags a {
+		border-bottom: none;
 	}
 
-	.selected-tax {
-		background:rgba(0,0,0,0) !important;
+	.blog-tags dd:hover {
+		background-color: #d6320b;
+	}
+
+	.blog-tags dd:hover > a {
+		color: #fff;
+	}
+
+	.blog-tags dt {
+		font-weight: bold;
+	}
+
+	.blog-tags dd {
+		border: 1px solid #d6320b;
+		padding: .25em;
+	}
+
+	.blog-tags dd, .blog-tags dt {
+		display: inline-block;
+		margin: 0 .25em .5em 0;
+	}
+
+	.selected-tag a {
+		color: #fff;
+	}
+
+	.selected-tag {
+		background-color: #d6320b;
 		border: 1px solid #d6320b;
 	}
 
-/* ## Tags */
-
 /* ##  Categories */
+
+	.work-categories dd {
+		padding: .75em;
+		background-color: #d6320b;
+		border-radius: 3px;
+		box-shadow: 0 0 .5em #dbdbdb;
+	}
+
+	.work-categories dt {
+		font-weight: bold;
+		font-size: 1.25em;
+	}
+
+	.work-categories a {
+		color: #fff;
+		border-bottom: none;
+	}
+
+	.work-categories dd, .work-categories dt {
+		display: inline-block;
+		margin: 0 .5em .75em 0;
+	}
+
+	.selected-category a {
+		color: #d6320b;
+	}
+
+	.selected-category {
+		background:rgba(0,0,0,0) !important;
+		border: 1px solid #d6320b;
+	}
 
 
 /* Page */
