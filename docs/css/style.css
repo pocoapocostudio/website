@@ -326,14 +326,14 @@
 	}
 
 	.latest-blog-post {
-		margin: 3.75em 0;
+		margin: 3.5em 0;
 	}
 
 	.latest-blog-post-title {
 		display: inline-block;
 		margin: 1em;
 		font-size: 1.25em;
-		line-height: 1.25em;
+		line-height: 1.5em;
 	}
 
 /* # Blog */
