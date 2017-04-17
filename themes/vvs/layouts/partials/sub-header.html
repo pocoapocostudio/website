@@ -15,25 +15,6 @@
 
 	>Home</a>
 
-	<a href="/blog" 
-
-	class="
-
-	{{- if eq .URL "/blog/" }}
-	selected
-	{{- end -}}
-
-	{{if eq .Section "blog"}}
-	selected{{end}}
-
-	{{ $lastUrlElement := index (last 2 (split (delimit (split .URL "/") "," "") ",")) 0 }}
-	{{ $lastUrlElement }}
-	{{ if eq $lastUrlElement "tags" }}
-	selected
-	{{ end }}"
-
-	>Blog</a>
-
 	<a href="/work" 
 
 	class="
@@ -52,6 +33,25 @@
 	{{ end }}"
 
 	>Work</a>
+
+	<a href="/blog" 
+
+	class="
+
+	{{- if eq .URL "/blog/" }}
+	selected
+	{{- end -}}
+
+	{{if eq .Section "blog"}}
+	selected{{end}}
+
+	{{ $lastUrlElement := index (last 2 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+	{{ $lastUrlElement }}
+	{{ if eq $lastUrlElement "tags" }}
+	selected
+	{{ end }}"
+
+	>Blog</a>
 
 	<a href="/about" 
 
