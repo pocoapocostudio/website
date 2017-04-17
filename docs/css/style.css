@@ -65,17 +65,17 @@
 	.fifty{ font-size: 1.5em; }
 	.twenty-five { font-size: 1.25em; }
 
-	p { line-height: 1.55em; font-size: 1em}
+	p { line-height: 1.75em; font-size: 1em}
 
 	a {
 		color: #d6320b;
 		text-decoration: none;
-		border-bottom: 1.5px solid #d6320b;
+		border-bottom: .025em solid #8e200e;
 	}
 
 	a:hover {
 		color: #8e200e;
-		border-bottom: 1.5px solid #8e200e;
+		border-bottom: .025em solid #661103;
 	}
 
 	main {
@@ -202,7 +202,7 @@
 	header {
 		text-align: center;
 		background-color: #f0592b;
-		margin-bottom: 	3.25em;
+		margin-bottom: 	4em;
 		background-image: url("/img/theme/pattern.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -215,7 +215,6 @@
 
 	.tagline {
 		color: #fff;
-		margin-top: .25em;
 		margin-bottom: 1.5em;
 		font-weight: 100;
 		font-size: 1.5em;
@@ -327,13 +326,14 @@
 	}
 
 	.latest-blog-post {
-		margin: 3em 0;
+		margin: 3.75em 0;
 	}
 
 	.latest-blog-post-title {
 		display: inline-block;
 		margin: 1em;
 		font-size: 1.25em;
+		line-height: 1.25em;
 	}
 
 /* # Blog */
@@ -458,7 +458,7 @@
 
 	.container-element {
 		background-color: #fff;
-		box-shadow: 0 0 .5em #efefef;
+		box-shadow: .25em .25em .25em #efefef;
 	}
 
 	.post article p {
@@ -466,7 +466,7 @@
 	}
 
 	.post article {
-		margin-bottom: 2.5em;
+		margin-bottom: 3.5em;
 	}
 
 @media screen and (max-width: 1024px) {
@@ -517,7 +517,7 @@
 		background-color: #fff;
 		box-sizing: border-box;
 		margin-bottom: .25em;
-		box-shadow: 0 0 .5em #efefef;
+		box-shadow: .25em .25em .25em #efefef;
 		height: 35em;;
 		display: inline-block;
 		width: 49%;
@@ -527,6 +527,15 @@
 
 	.work-item-card:nth-child(even) {
 		margin-left: 2%;
+	}
+
+	.work-item-card p:nth-child(3) {
+		margin-top: .5em;
+		margin-bottom: 1.75em;
+	}
+
+	.work-item-card p {
+		line-height: 1.5em;
 	}
 
 	.related-work-items .work-item-card {
@@ -549,6 +558,7 @@
 		margin-top: .75em;
 		font-weight: bold;
 		font-size: 1.5em;
+		line-height: 1.3em;
 	}
 
 	.work-category {
@@ -571,7 +581,7 @@
 	}
 
 	.work-categories-container {
-		margin: 2em 0;
+		margin: 3em 0 1.75em 0;
 	}
 
 	.related-work-items {
