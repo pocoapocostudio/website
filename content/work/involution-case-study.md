@@ -3,6 +3,7 @@ title = "Case Study Video for Involution Studios"
 date = "2017-04-13T14:55:48-06:00"
 categories = [ "Video"]
 featured_image = "/img/content/featured_images/involution-case-study.jpg"
+homepage = ["yes"]
 +++
 
 DataXu had a unique vision to be a leader in the big data game. Thanks to the Involution Studios redesign that data now gives their clients many recommendations and methods to forecast, in real time, anytime.

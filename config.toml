@@ -9,3 +9,4 @@ pluralizeListTitles = false
 [taxonomies]
 tag = "tags"
 category = "categories"
+homepage = "homepage"

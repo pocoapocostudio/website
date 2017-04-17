@@ -33,16 +33,14 @@
 		<h3 class="title-text">Work I've made</h3>
 		<p class="title-description">My latest projects</p>
 
-		<div class="column">
-		{{ range first 2 (where .Data.Pages "Section" "work") }}
-
-			{{ partial "work-card.html" . }}
-
-    	{{- end -}}
+		{{ range $key, $taxonomy := .Site.Taxonomies.homepage }}
+            {{ range $taxonomy.Pages }}
+            {{ partial "work-card.html" . }}
+            {{ end }}
+        {{ end }}
     	
-		</div>
-
 	</section>
+
 </main>
 
 {{ partial "footer.html" . }}
