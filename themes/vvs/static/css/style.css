@@ -581,7 +581,7 @@
 	}
 
 	.work-categories-container {
-		margin: 3em 0 1.75em 0;
+		margin: 2.5em 0 1.75em 0;
 	}
 
 	.related-work-items {
@@ -694,16 +694,13 @@
 		padding-bottom: 3px;
 		border-bottom: 1px solid #e3e3e3;
 		font-size: 1.25em;
-	}
-
-	.work-categories dt {
-		font-weight: bold;
+		text-align: center;
 	}
 
 	.work-categories a {
 		color: #d6320b;
 		border-bottom: 4px solid #e3e3e3;
-		padding: 0em .5em;
+		padding: 0em .75em;
 	}
 
 
@@ -714,8 +711,11 @@
 
 	.work-categories dd, .work-categories dt  {
 		display: inline-block;
-		margin-left: 0em;
-		margin-right: 1em;
+		margin: 0;
+	}
+
+	.work-categories dd {
+		margin-right: .5em;
 	}
 
 	.selected-category a {
