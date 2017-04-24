@@ -5,6 +5,7 @@ baseURL = "http://www.brianliston.com/"
 publishDir = "docs"
 paginate = 8
 pluralizeListTitles = false
+googleAnalytics = "UA-91465340-1"
 
 [taxonomies]
 tag = "tags"
