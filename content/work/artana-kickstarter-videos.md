@@ -1,34 +1,51 @@
 +++
 title = "Kickstarter Videos and Design for Artana Games"
 date = "2017-04-14T14:55:48-06:00"
-categories = [ "Video"]
+categories = [ "Video", ]
 featured_image = "/img/content/featured_images/artana-kickstarter-videos.png"
-draft = true
 +++
 
 Powering Up! is an expansion to the hit board game Tesla vs. Edison. Funded over 3000%, Powering Up! raised 3/4ths the money of its base game, Tesla vs. Edison. 
 
 <!--more-->
 
-For this Kickstarter campaign, I created the video, campaign images, and other marketing assets.
+<div class="post-media embed-container-four-three">
+    <iframe src="https://player.vimeo.com/video/169941612" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<p class="post-media-description">Kickstarter video for Tesla Vs. Edison: Powering Up!</p>
 
-<p>
-    <p class="embed-container-four-three"><iframe src="https://player.vimeo.com/video/169941612" width="1000" height="750" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </p>
-    <p class="post-media-description">Kickstarter video for Tesla Vs. Edison: Powering Up!</p>
-</p>
+**Corrupted Kingdoms**
 
+<a href="https://www.kickstarter.com/projects/artana/corrupted-kingdoms">Corrupted Kingdoms</a> is a game of political negotiation and intrigue set in a fantasy realm where Machiavellian monsters jockey for power.
 
-**Selected art assets**
+<div class="post-media embed-container-four-three">
+    <iframe src="https://player.vimeo.com/video/170086498" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<p class="post-media-description">Video for Artana's Corrupted Kingdoms Kickstarter</p>
 
-Animated banner for BoardGameGeek.com.
+**The Best Damn Gaming Coinds Ever... TWO!**
 
-3D layouts for Powering Up’s sales sheet.
+<a href="https://www.kickstarter.com/projects/artana/the-best-damn-gaming-coins-evertwo">The Best Damn Gaming Coins Ever…TWO!</a> is the sequel to Conquistador Games’ (since rebranded to Artana) Best Damn Metal Gaming Coins Ever! Kickstarter campaign.
 
-<div class="post-media"><img src="/img/content/artana/tvepu-component-layout.jpg" alt="Tesla Vs. Edison Componenet layout"></div>
+<div class="post-media embed-container">
+		<iframe src="https://www.youtube.com/embed/WWez3m-Xf4M" frameborder="0" allowfullscreen></iframe>
+</div>
+<p class="post-media-description">Video for Artana's Best Damn Gaming Coins Ever... TWO! Kickstarter</p>
 
-<p>
-    <p class='embed-container-four-three'><iframe src="https://player.vimeo.com/video/170086498" width="1000" height="750" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </p>
-    <p class="post-media-description">Video for Artana's Corrupted Kingdoms Kickstarter</p>
-</p>
+**The Chronicles Series**
+
+A game system that’s epic in scope, <a href="http://www.artana.com/chronicles-origins">The Chronicles Series</a> is five interconnected board games that span the history of Western Civilization.
+
+<div class="post-media embed-container">
+<iframe src="https://www.youtube.com/embed/enPyeI8DyW0" frameborder="0" allowfullscreen></iframe>
+</div>
+<p class="post-media-description">The Chronicles Series promotional video</p>
+
+**Tesla vs. Edison: War of Currents**
+
+<a href="https://www.kickstarter.com/projects/artana/tesla-vs-edison/description">Tesla vs. Edison</a> is Artana’s most successful boardgame, Kickstarted in March 2015. Fight it out with your friends as Tesla, Edison, or one of three contemporaneous inventors for control of the burgeoning 19th century electric industry.
+
+<div class="post-media embed-container">
+    <iframe src="https://www.youtube.com/embed/rQv17CaGSmQ" frameborder="0" allowfullscreen></iframe>
+</div>
+<p class="post-media-description">Video for Tesla vs. Edison: War of Currents Kickstarter</p>

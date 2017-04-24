@@ -1,7 +1,7 @@
 +++
 title = "Article Design and Illustration for Involution Studios"
 date = "2017-04-13T14:55:48-06:00"
-categories = [ "Design"]
+categories = [ "Web"]
 featured_image = "/img/content/featured_images/involution-disrupt-article.jpg"
 +++
 
