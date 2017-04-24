@@ -67,6 +67,11 @@
   </url>
   
   <url>
+    <loc>http://www.brianliston.com/work/xavier-lab-website/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.brianliston.com/about/</loc>
     <lastmod>2017-04-09T14:32:19-06:00</lastmod>
   </url>
@@ -136,6 +141,12 @@
   <url>
     <loc>http://www.brianliston.com/tags/wcag/</loc>
     <lastmod>2017-04-16T14:02:18-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.brianliston.com/categories/web/</loc>
+    <lastmod>2017-04-09T14:55:48-06:00</lastmod>
     <priority>0</priority>
   </url>
   
