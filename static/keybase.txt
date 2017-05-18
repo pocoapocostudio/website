@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/brianliston
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://brianliston.com
+  * I am brianliston (https://keybase.io/brianliston) on keybase.
+  * I have a public key with fingerprint 047A 0FAA B3D5 85DB 5A01  329B 10A5 20FD A8D9 57C0
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c3fabe83a2d5cec2025903b57dfc60c2db3dac673ec87cc44c5c1f3531c5aa520a",
+            "fingerprint": "047a0faab3d585db5a01329b10a520fda8d957c0",
+            "host": "keybase.io",
+            "key_id": "10a520fda8d957c0",
+            "kid": "0101c3fabe83a2d5cec2025903b57dfc60c2db3dac673ec87cc44c5c1f3531c5aa520a",
+            "uid": "bf2ea6d08f7614dc10400b769f10e119",
+            "username": "brianliston"
+        },
+        "revoke": {
+            "sig_ids": [
+                "d45b3bb6ec9ff3eca9fd683b06a0b0b653a5eb35c433d5ee32ab15563744257d0f"
+            ]
+        },
+        "service": {
+            "hostname": "brianliston.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1495140875,
+    "expire_in": 157680000,
+    "prev": "cfa6bce0d5ad7528e162623ae5305096233179d96e4efeb2160812393165316c",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.70
+Comment: https://keybase.io/crypto
+
+yMJkAnicrZJZaNVKGMdPbdV6tLSC4INoIYii1sNMJjNJjltBwQUvpeJWtBxnS5t7
+2pOYpMcWrQpSsS4oKCgXvA9yHwQXxCIVC3WhorjVuqCl6gVRqYoFESooopNy75M+
+mpdkkv/3m9/3ZXpKChPJggeTv10pPW/fK7h99UtTomZacvxWjXmiRUtv1bJy5CYb
+hAyjTNYVWloDEECOHMqkhaguMJdcBzq2AWLYFA4ngOuCIUE5MZHklsm5YXDMoYMw
+ghxTinVAtQrNcXN1MvADNxfFWMOkwKFUVWILC4YpgEi3GQRx3hHUEjY2OVCF9V4Y
+Vyg5RkOZcj31Ti0yI3q/yP9m76YRHHN0SYkAlmMSaAgOgQEAM4ntQCAhtONgKIMc
+bZRxOnBprsENIy+ntVZogcx7WRmPNnTrlHeopTdowsAMMUYktx1HGVDbEcRCDBAK
+GGAEI4olQ5gbSM1ISqRTBjEmyDQMXbUAHK1WsdWmeZePwONB/SyQ4l6jsvMDL/K4
+16A+1keRH6ZjsajFj9NbJMv8x8kwNyfUn1IVeRmErmogDVWSR24MhoaNoQEsE1do
+stl3A5lx4wQ2iQXUFe8j8wrJHUoYl0BgKkysWxISneiISowABrZ6RNC0hU2kIR3J
+dEiABXVkI6gah4RrcWebc55i28qT1immGl6ORk2B1FqvXdlYlChIJsaMHhUf4URy
+XNn/B/tk+9jvKyYPvpvbs6rjUrI0f7x7cKiypmh517yqI1O8RcO93058GC6uKKyV
+zaP3LRm4WL5mUupO5QHbXdjXuqMEpgf71690S7qHzNPT0jP/zP6dunXmfvWi5UP+
+ZXfwVPWaYuuf3Z8TA/7Uvntzp6N04c1jT3qSJzrazpXtbMj8e6pjdeue7M7naxes
+7aanJ3oLBzrbFrd/Le4t9t/NX3f+GTvanno8p3+7PnN/2aG9b/4o76/v+ng2U91Y
++OJuJ3785uXrG5+ut014UDVu9tKHn8G6LbPOVF7X3rZ9KH2/rW/7ylfDZFPLrkmf
+ns4opzcuND86UHt3277Or6/9xqqDvUUPD5N5y/5acsxv/wFt+19W
+=PR17
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brianliston
+
+==================================================================
