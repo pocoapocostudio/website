@@ -35,12 +35,12 @@
 
 	@font-face {
 	    font-family: "Zona Pro Bold";
-	    src: url(/img/theme/ZonaPro-Bold.otf);
+	    src: url(/img/theme/ZonaPro-Bold.woff) format('woff');
 	}
 
 	@font-face {
 		font-family: "Zona Pro Black";
-	    src: url(/img/theme/ZonaPro-Black.otf);
+	    src: url(/img/theme/ZonaPro-Black.woff) format('woff');
 	}
 
 	body {
@@ -263,7 +263,6 @@
 		padding-top: .34em;
 		background-color: #f4f4f4;
 		color: #e0431e;
-		background-image: url("/img/theme/bgnd.jpg");
 	}
 
 @media screen and (max-width: 425px) {
