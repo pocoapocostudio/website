@@ -35,12 +35,12 @@
 
 	@font-face {
 	    font-family: "Zona Pro Bold";
-	    src: url(/fonts/theme/ZonaPro-Bold.woff) format('woff');
+	    src: url(/fonts/ZonaPro-Bold.woff) format('woff');
 	}
 
 	@font-face {
 		font-family: "Zona Pro Black";
-	    src: url(/fonts/theme/ZonaPro-Black.woff) format('woff');
+	    src: url(/fonts/ZonaPro-Black.woff) format('woff');
 	}
 
 	body {
