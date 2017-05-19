@@ -2,7 +2,7 @@
 title = "Kickstarter Videos for Artana Games"
 date = "2017-04-14T14:55:48-06:00"
 categories = [ "Video", ]
-featured_image = "/img/content/featured_images/artana-kickstarter-videos.png"
+featured_image = "/img/content/featured_images/artana-kickstarter-videos.jpg"
 homepage = ["yes"]
 +++
 

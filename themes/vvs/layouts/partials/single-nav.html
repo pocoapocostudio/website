@@ -2,13 +2,13 @@
 
 	<p class="blog-previous">
 		{{ if .PrevInSection }}
-			<a class="previous" href="{{.PrevInSection.Permalink}}"><i class="fa fa-chevron-left fa-custom" aria-hidden="true"></i> Previous: {{.PrevInSection.Title}}</a>
+			<a class="previous" href="{{.PrevInSection.Permalink}}">Previous: {{.PrevInSection.Title}}</a>
 		{{ end }}
 	</p>
 
 	<p class="blog-next">
 		{{ if .NextInSection }}
-			<a class="next" href="{{.NextInSection.Permalink}}">Next: {{.NextInSection.Title}} <i class="fa fa-chevron-right fa-custom" aria-hidden="true"></i></a>
+			<a class="next" href="{{.NextInSection.Permalink}}">Next: {{.NextInSection.Title}}</a>
 		{{ end }}
 	</p>
 

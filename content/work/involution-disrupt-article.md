@@ -38,4 +38,4 @@ I created several fake "golden age sc-fi" novel covers for the article.
 
 The developer of the article, Craig McGinley, wrote a blog post about the process of coding the article and asked me to create an illustration for it.
 
-<img src="/img/content/involution/involution-disrupt-article/illustration.png" alt="Making of Disrupt! blog post illustration" />
+<img src="/img/content/involution/involution-disrupt-article/illustration.jpg" alt="Making of Disrupt! blog post illustration" />
