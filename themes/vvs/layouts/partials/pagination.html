@@ -6,12 +6,13 @@
         <p class="blog-previous
         {{ if not $pag.HasPrev }} disabled {{ end }}>
         ">
-        <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous"><span aria-hidden="true">Previous</span></p>
+        <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous">Previous</a>
+        </p>
 
         <p class="blog-next
         {{ if not $pag.HasNext }} disabled {{ end }}
         ">
-        <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next"><span aria-hidden="true">Next</span></a>
+        <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next">Next</a>
         </p>
         {{ with $pag.Last }}
         {{ end }}

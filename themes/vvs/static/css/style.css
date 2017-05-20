@@ -113,19 +113,15 @@
 	}
 
 	.pagination li {
-		display: inline;
+		display: inline-block;
 		margin: .25em;
-	}
-
-	.fa-custom {
-		font-size: .75em !important;
 	}
 
 	.embed-container { 
 		position: relative;
 		padding-bottom: 56.25%;
 		height: 0; overflow: hidden;
-		max-width: 100%; height: auto;
+		max-width: 100%;
 		margin-top: 2em !important;
 	} 
 
@@ -142,7 +138,7 @@
 		position: relative;
 		padding-bottom: 58.25%;
 		height: 0; overflow: hidden;
-		max-width: 100%; height: auto;
+		max-width: 100%;
 		margin-top: 2em !important;
 	} 
 
@@ -506,7 +502,6 @@
 	.work-item-card {
 		background-color: #fff;
 		box-sizing: border-box;
-		margin-bottom: .25em;
 		box-shadow: .25em .25em .25em #efefef;
 		height: 35em;;
 		display: inline-block;
@@ -690,7 +685,7 @@
 	.work-categories a {
 		color: #d6320b;
 		border-bottom: none;
-		padding: 0em .75em;
+		padding: 0 .75em;
 	}
 
 
@@ -711,10 +706,6 @@
 	.selected-category a {
 		color: #d6320b;
 		border-bottom: 4px solid #d6320b;
-	}
-
-	.selected-category {
-
 	}
 
 @media screen and (max-width: 375px) {
