@@ -10,6 +10,21 @@
 
 <noscript>
 <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+<style>
+@font-face {
+    font-family: "Zona Pro";
+    src: url(/fonts/ZonaPro-Bold.woff) format('woff');
+    font-style: normal;
+ 	font-weight: 700; 
+}
+
+@font-face {
+	font-family: "Zona Pro";
+    src: url(/fonts/ZonaPro-Black.woff) format('woff');
+    font-style: normal;
+ 	font-weight: 900; 
+}
+</style>
 </noscript>
 
 
@@ -192,6 +207,13 @@ ga('send', 'pageview');
       families: ['Nunito:400,700,']
     }
   });
+
+WebFont.load({
+  custom: {
+    families: ['ZonaPro:700,900'],
+    urls: ['/fonts/fonts.css']
+  }
+});
 </script>
 
 </body>

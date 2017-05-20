@@ -33,16 +33,6 @@
 
 /* # Global */
 
-	@font-face {
-	    font-family: "Zona Pro Bold";
-	    src: url(/fonts/ZonaPro-Bold.woff) format('woff');
-	}
-
-	@font-face {
-		font-family: "Zona Pro Black";
-	    src: url(/fonts/ZonaPro-Black.woff) format('woff');
-	}
-
 	body {
 		background-color: #f4f4f4;
 		font-family: "Nunito", sans-serif;
@@ -104,14 +94,16 @@
 
 	.logo {
 		padding-top: .75em;
-		font-family: "Zona Pro Bold", sans-serif;
+		font-family: "ZonaPro", sans-serif;
 		color: #fff;
 		font-size: 5em;
 		letter-spacing: -.04em;
+		font-weight: 700;
 	}
 
 	.logo .underscore {
-		font-family: "Zona Pro Black", sans-serif;
+		font-family: "ZonaPro", sans-serif;
+		font-weight: 900;
 	}
 
 	.pagination {

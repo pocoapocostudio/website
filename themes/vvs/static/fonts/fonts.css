@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "ZonaPro";
+    src: url(/fonts/ZonaPro-Bold.woff) format('woff');
+    font-style: normal;
+ 	font-weight: 700; 
+}
+
+@font-face {
+	font-family: "ZonaPro";
+    src: url(/fonts/ZonaPro-Black.woff) format('woff');
+    font-style: normal;
+ 	font-weight: 900; 
+}
