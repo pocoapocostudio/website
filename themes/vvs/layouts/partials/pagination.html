@@ -4,7 +4,7 @@
         {{ with $pag.First }}
         {{ end }}
         <p class="blog-previous
-        {{ if not $pag.HasPrev }} disabled {{ end }}>
+        {{ if not $pag.HasPrev }} disabled {{ end }}
         ">
         <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous">Previous</a>
         </p>
@@ -16,5 +16,5 @@
         </p>
         {{ with $pag.Last }}
         {{ end }}
-    </ul>
+    </nav>
 {{ end }}
