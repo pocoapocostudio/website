@@ -1,7 +1,7 @@
 <div class="work-item-card" aria-label="Work item">
 		<img src="{{ with .Params.featured_image }}{{ . }}{{ end }}" alt="{{ .Title }} Thumbnail" />
-		<a href="{{ .Permalink }}">
 		<div class="work-item-container">
+			<a href="{{ .Permalink }}">
 			<h4 class="work-item-title">
 			{{ .Title }}
 			</h4>

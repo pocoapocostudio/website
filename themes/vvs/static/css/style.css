@@ -43,7 +43,7 @@
 
 	h1, h2, h3, h4, h5, h6 { line-height: 1.2em; margin: 0; font-size: 1rem; }
 
-	hr {
+	hr, iframe {
 		border-width: 0;
 	}
 
