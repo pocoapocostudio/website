@@ -3,7 +3,6 @@ title = "Documentary for The Ohio Center for Extra-scientific Research"
 date = "2017-04-09T14:55:48-06:00"
 categories = [ "Video"]
 featured_image = "/img/content/featured_images/ocer-video.jpg"
-homepage = ["yes"]
 +++
 
 The Ohio Center for Extrascientific Research or The OCER is a fictional organization inspired by reality TV shows like Ghosthunters and River Monsters and alternative media like Coast to Coast AM and Infowars.

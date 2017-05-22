@@ -18,7 +18,7 @@
 }
 
 @font-face {
-	font-family: "Zona Pro";
+	font-family: "ZonaPro";
     src: url(/fonts/ZonaPro-Black.woff) format('woff');
     font-style: normal;
  	font-weight: 900; 
@@ -28,7 +28,7 @@
 
 {{ if .RSSLink }}
 <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+<link href="{{ .RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}
 
 {{ template "_internal/google_analytics_async.html" . }}
