@@ -10,7 +10,7 @@ The GodTech project endeavours to research, consider, and popularize the ways th
 
 <!--more-->
 
-You can visit the site I designed for the GodTech Project <a href="https://godtech.brianliston.com">here</a>. A more detailed description of my design process is soon to come!
+You can visit the site I designed for the GodTech Project <a href="http://godtech.brianliston.com">here</a>. A more detailed description of my design process is soon to come!
 
 <div class="post-media">
 	<img src="/img/content/godtech/godtech-homepage.png" alt="Homepage of the GodTech Project" />
