@@ -1,6 +1,6 @@
 +++
 date = "2017-04-16T14:02:18-06:00"
-title = "Can Hugo and Static Site Generators Replace Wordpress?"
+title = "Can Hugo, A Static Site Generator, Replace Wordpress?"
 tags = [ "Design", "VVS", "Development", "Accessibility", "WCAG"]
 
 +++
