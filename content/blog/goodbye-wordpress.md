@@ -1,11 +1,11 @@
 +++
 date = "2017-04-16T14:02:18-06:00"
-title = "Goodbye forever WordPress... wait no I didn't mean it, noo"
+title = "Can Hugo and Static Site Generators Replace Wordpress?"
 tags = [ "Design", "VVS", "Development", "Accessibility", "WCAG"]
 
 +++
 
-I've been having a lot of trouble maintaining WordPress sites lately. Two different clients of mine have gotten their WordPress websites hacked in the last few months. Because WordPress is <a href="https://blogvault.net/the-price-of-popularity-why-hackers-target-wordpress/">by far the most popular CMS</a> right now, it attracts an inordinate amount of attention from hackers. Just last month a site I help maintain, <a href="https://www.viewpointmag.com">viewpointmag.com</a>, suffered incredible amounts of downtime because of what likely was a days-long brute force attack. This is why I've decided to move my site from Wordpress to <a href="https://gohugo.io">Hugo</a>, a static site generator that creates websites which are *lot* less prone to hacking attempts. It's not like I'm a big target, but I thought while rebuilding my personal site I could assess how easy it would be for my clients to switch over to a static site generator.
+My clients have been having a lot of trouble keeping bad guys out of their WordPress sites lately. Two different clients of mine have gotten their WordPress websites hacked in the last few months. Because WordPress is <a href="https://blogvault.net/the-price-of-popularity-why-hackers-target-wordpress/">by far the most popular CMS</a> right now, it attracts an inordinate amount of attention from hackers. Just last month a site I help maintain, <a href="https://www.viewpointmag.com">viewpointmag.com</a>, suffered incredible amounts of downtime because of what likely was a days-long brute force attack. So, I've decided to move my site from Wordpress to <a href="https://gohugo.io">Hugo</a>, a static site generator that creates websites which are *lot* less prone to hacking attempts. It's not like I'm a big target, but I thought while rebuilding my personal site I could assess how easy it would be for my clients to switch over to a static site generator.
 
 Hugo seemed like the best option out of <a href="https://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review/">all the static site generators out there</a>. I chose it because there are no dependencies (unlike Jekyll) and it's easy to upgrade. No way in hell would I ask a client to install Ruby to manage their website.
 
