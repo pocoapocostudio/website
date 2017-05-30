@@ -7,7 +7,12 @@
   </url>
   
   <url>
-    <loc>http://www.brianliston.com/blog/goodbye-wordpress/</loc>
+    <loc>http://www.brianliston.com/blog/vvs-theme/</loc>
+    <lastmod>2017-04-19T14:02:18-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.brianliston.com/blog/hugo-wordpress/</loc>
     <lastmod>2017-04-16T14:02:18-06:00</lastmod>
   </url>
   
@@ -98,13 +103,13 @@
   
   <url>
     <loc>http://www.brianliston.com/tags/accessibility/</loc>
-    <lastmod>2017-04-16T14:02:18-06:00</lastmod>
+    <lastmod>2017-04-19T14:02:18-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.brianliston.com/blog/</loc>
-    <lastmod>2017-04-16T14:02:18-06:00</lastmod>
+    <lastmod>2017-04-19T14:02:18-06:00</lastmod>
   </url>
   
   <url>
@@ -114,7 +119,7 @@
   
   <url>
     <loc>http://www.brianliston.com/tags/design/</loc>
-    <lastmod>2017-04-16T14:02:18-06:00</lastmod>
+    <lastmod>2017-04-19T14:02:18-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -126,7 +131,7 @@
   
   <url>
     <loc>http://www.brianliston.com/tags/development/</loc>
-    <lastmod>2017-04-16T14:02:18-06:00</lastmod>
+    <lastmod>2017-04-19T14:02:18-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -136,8 +141,20 @@
   </url>
   
   <url>
-    <loc>http://www.brianliston.com/tags/</loc>
+    <loc>http://www.brianliston.com/tags/hugo/</loc>
     <lastmod>2017-04-16T14:02:18-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.brianliston.com/tags/security/</loc>
+    <lastmod>2017-04-16T14:02:18-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.brianliston.com/tags/</loc>
+    <lastmod>2017-04-19T14:02:18-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -149,19 +166,25 @@
   
   <url>
     <loc>http://www.brianliston.com/tags/vvs/</loc>
-    <lastmod>2017-04-16T14:02:18-06:00</lastmod>
+    <lastmod>2017-04-19T14:02:18-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.brianliston.com/tags/wcag/</loc>
-    <lastmod>2017-04-16T14:02:18-06:00</lastmod>
+    <lastmod>2017-04-19T14:02:18-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.brianliston.com/categories/web/</loc>
     <lastmod>2017-04-13T14:55:48-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.brianliston.com/tags/wordpress/</loc>
+    <lastmod>2017-04-16T14:02:18-06:00</lastmod>
     <priority>0</priority>
   </url>
   
