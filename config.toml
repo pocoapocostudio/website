@@ -1,7 +1,7 @@
 theme = "vvs"
 languageCode = "en-us"
-title = "Brian Liston | Digital Design and Video Production in Denver, Colorado"
-baseURL = "http://www.brianliston.com/"
+title = "Poco A Poco | Digital Design and Video Production in Denver, Colorado"
+baseURL = "http://pocoapocostudio.com/"
 publishDir = "docs"
 paginate = 8
 pluralizeListTitles = false

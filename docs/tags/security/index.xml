@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Security on Brian Liston | Digital Design and Video Production in Denver, Colorado</title>
-    <link>http://www.brianliston.com/tags/security/</link>
-    <description>Recent content in Security on Brian Liston | Digital Design and Video Production in Denver, Colorado</description>
+    <title>Security on Poco A Poco | Digital Design and Video Production in Denver, Colorado</title>
+    <link>http://pocoapocostudio.com/tags/security/</link>
+    <description>Recent content in Security on Poco A Poco | Digital Design and Video Production in Denver, Colorado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Apr 2017 14:02:18 -0600</lastBuildDate>
     
-	<atom:link href="http://www.brianliston.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pocoapocostudio.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Can Hugo, a static site generator, replace WordPress?</title>
-      <link>http://www.brianliston.com/blog/hugo-wordpress/</link>
+      <link>http://pocoapocostudio.com/blog/hugo-wordpress/</link>
       <pubDate>Sun, 16 Apr 2017 14:02:18 -0600</pubDate>
       
-      <guid>http://www.brianliston.com/blog/hugo-wordpress/</guid>
+      <guid>http://pocoapocostudio.com/blog/hugo-wordpress/</guid>
       <description>My clients have been having a lot of trouble keeping bad guys out of their WordPress sites lately. Two different clients of mine have gotten their WordPress websites hacked in the last few months. Because WordPress is by far the most popular CMS right now, it attracts an inordinate amount of attention from hackers. Just last month a site I help maintain, viewpointmag.com, suffered incredible amounts of downtime because of what likely was a days-long brute force attack.</description>
     </item>
     
