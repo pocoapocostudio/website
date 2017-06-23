@@ -39,13 +39,62 @@ ga('send', 'pageview');
 
 <title>Brian Liston | Digital and Print Design for Involution Studios</title>
 
+
+<script type="text/javascript">
+
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+function eraseCookie(name) {
+	createCookie(name,"",-1);
+}
+
+function setTheDivStyle() {
+if(!readCookie('wroteIt')) {
+
+document.getElementById("theLink").style.display="block";
+createCookie('wroteIt', 'wroteIt', 1);  
+}
+else {
+
+document.getElementById("theLink").style.display="none";
+}
+}
+
+function checkTheDivStyle() {
+	if(readCookie('wroteIt')) {
+	document.getElementById("theLink").style.display="none";
+}
+}
+</script>
+
 </head>
 
-<body class="post work-item">
+<body class="post work-item" onload="checkTheDivStyle()">
 
 <header>
 
 <a href="#content" class="skip">Skip to main content</a>
+
+<div id = "theLink" style="color: #3f3f3f; background-color: #f4f4f4; padding: 1em;">Hey, you found me! Read about <a style="text-decoration: underline;" href="/blog/poco-a-poco/">my coming rebrand to Poco A Poco Studio.</a> <a href="#" onclick="setTheDivStyle()" style="padding-left: 5em;">Close X</a></div>
 
 <h1 class="logo">brian<span class="underscore">_</span>liston</h1>
 
@@ -166,6 +215,9 @@ ga('send', 'pageview');
 	
 		
 			
+	
+		
+			
 			
 			<div class="work-item-card" aria-label="Work item">
 	<img src="/img/content/featured_images/artana-design.jpg" alt="Digital Design for Artana Thumbnail" />
@@ -192,6 +244,9 @@ ga('send', 'pageview');
 	</div>
 </div>
 		
+	
+		
+			
 	
 		
 			

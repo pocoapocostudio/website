@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poco on Poco A Poco | Digital Design and Video Production in Denver, Colorado</title>
+    <link>http://pocoapocostudio.com/tags/poco/</link>
+    <description>Recent content in Poco on Poco A Poco | Digital Design and Video Production in Denver, Colorado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Jun 2017 14:02:18 -0600</lastBuildDate>
+    
+	<atom:link href="http://pocoapocostudio.com/tags/poco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Poco a Poco Studio</title>
+      <link>http://pocoapocostudio.com/blog/poco-a-poco/</link>
+      <pubDate>Fri, 23 Jun 2017 14:02:18 -0600</pubDate>
+      
+      <guid>http://pocoapocostudio.com/blog/poco-a-poco/</guid>
+      <description>If you&amp;rsquo;re reading this, you&amp;rsquo;ve caught me at a weird time. I&amp;rsquo;m transforming my freelance business, previously named Brian Liston Video Production &amp;amp; Digital Design, into Poco a Poco Studio, a small design shop focused on web development.
+There are a couple reasons for this change. I&amp;rsquo;ve decided to pursue what I enjoy doing most, web development, and I&amp;rsquo;m aiming to bring other designers and developers on to some of my web projects.</description>
+    </item>
+    
+  </channel>
+</rss>
