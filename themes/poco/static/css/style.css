@@ -94,16 +94,21 @@
 
 	.logo {
 		padding-top: .75em;
-		font-family: "ZonaPro", sans-serif;
-		color: #fff;
+		font-family: "Fredoka One", sans-serif;
 		font-size: 5em;
-		letter-spacing: -.04em;
-		font-weight: 700;
+		letter-spacing: -.01em;
 	}
 
-	.logo .underscore {
-		font-family: "ZonaPro", sans-serif;
-		font-weight: 900;
+	.one-poco {
+		color: #652c90;
+	}
+
+	.a-poco {
+		color: #a52988;
+	}
+
+	.two-poco {
+		color: #dc2426;
 	}
 
 	.pagination {
@@ -188,12 +193,11 @@
 
 	header {
 		text-align: center;
-		background-color: #f0592b;
+		background-color: #edc5e6;
 		margin-bottom: 	4em;
-		background-image: url("/img/theme/pattern.svg");
+		background-image: url("/img/theme/bg.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: center;
 	}
 
 	header a, header a:hover {
@@ -201,7 +205,7 @@
 	}
 
 	.tagline {
-		color: #fff;
+		color: #3f3f3f;
 		margin-bottom: 1.5em;
 		font-weight: 100;
 		font-size: 1.5em;
@@ -234,7 +238,7 @@
 	}
 
 	header nav a {
-		color: #fff;
+		color: #e0431e;
 		padding: 0 .75em;
 		border-bottom: none;
 		font-weight: bold;
@@ -250,7 +254,7 @@
 		padding-bottom: .5em;
 		padding-top: .34em;
 		background-color: #f4f4f4;
-		color: #e0431e;
+		color: #8e200e;
 	}
 
 @media screen and (max-width: 425px) {
