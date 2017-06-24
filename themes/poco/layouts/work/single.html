@@ -1,0 +1,49 @@
+{{ partial "header.html" . }}
+
+<body class="post work-item" onload="checkTheDivStyle()">
+
+{{ partial "sub-header.html" . }}
+
+<main aria-label="Work item" id="content">
+
+<article>
+	<p class="up-a-level">
+		<a href="/work">To Work page</a>
+	</p>
+
+	<h3 class="blog-title">{{ .Title }}</h3>
+
+	{{ range .Params.categories }}
+			<p class="work-category">{{ . }} Project</p>
+	{{ end }}
+
+		{{ .Content }}
+
+<!-- <p class="post-media"><img src="videoplaceholder.jpg" /></p> -->
+
+</article>
+
+<!-- <aside id="categories" aria-label="All work item categories">
+		{{ partial "categories.html" . }}
+</aside> -->
+
+<nav class="related-work-items" aria-label="Related work items">
+
+	{{ $page_link := .Permalink }}
+	{{ $categories := .Params.categories }}
+
+	<h4 class="title-text">More {{ delimit $categories ", "}} Projects</h4>
+
+	{{ range $page := .Site.Pages }}
+		{{ $has_common_categories := intersect $categories .Params.categories | len | lt 0 }}
+			{{ if and $has_common_categories (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$c") 2)}}
+			{{ $.Scratch.Add "$c" 1 }}
+			{{ partial "work-card-small.html" . }}
+		{{ end }}
+	{{ end }}
+
+</nav>
+
+</main>
+
+{{ partial "footer.html" . }}

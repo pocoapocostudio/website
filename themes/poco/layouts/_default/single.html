@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+
+<body class="post" onload="checkTheDivStyle()">
+
+{{ partial "sub-header.html" . }}
+
+<main aria-label="Blog post" id="content">
+
+<article>
+<p class="up-a-level"><a href="/blog">To Blog</a></p>
+<h3 class="blog-title">{{ .Title }}</h3>
+<p class="blog-date"><time datetime="2017-04-07 20:00">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></p>
+
+
+{{ .Content }}
+
+<!-- 
+
+<p class="post-text">
+
+<p class="post-media"><img src="videoplaceholder.jpg" width="100%"/></p> 
+
+-->
+
+</article>
+
+<aside id="tags" aria-label="All blog post tags">
+	{{ partial "tags.html" . }}
+</aside>
+
+{{ partial "single-nav.html" . }}
+
+</main>
+
+{{ partial "footer.html" . }}

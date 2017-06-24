@@ -1,0 +1,69 @@
+<header>
+
+<a href="#content" class="skip">Skip to main content</a>
+
+<div id = "theLink" style="color: #3f3f3f; background-color: #f4f4f4; padding: 1em;">Read about <a style="text-decoration: underline;" href="/blog/poco-a-poco/">my upcoming rebrand to Poco a Poco Studio.</a> <a href="#" onclick="setTheDivStyle()" style="padding-left: 5em;"><strong>Close</strong></a></div>
+
+<h1 class="logo">Poco a Poco</h1>
+
+<h2 class="tagline">Video production and digital design in Denver, Colorado</h2>
+
+<nav aria-label="Main website navigation">
+	<a href="/" 
+
+	{{- if eq .URL "/" }}
+	class="selected"
+	{{- end -}}
+
+	>Home</a>
+
+	<a href="/work" 
+
+	class="
+
+	{{- if eq .URL "/work/" }}
+	selected
+	{{- end -}}
+
+	{{if eq .Section "work"}}
+	selected{{end}}
+
+	{{ $lastUrlElement := index (last 2 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+	{{ $lastUrlElement }}
+	{{ if eq $lastUrlElement "categories" }}
+	selected
+	{{ end }}"
+
+	>Work</a>
+
+	<a href="/blog" 
+
+	class="
+
+	{{- if eq .URL "/blog/" }}
+	selected
+	{{- end -}}
+
+	{{if eq .Section "blog"}}
+	selected{{end}}
+
+	{{ $lastUrlElement := index (last 2 (split (delimit (split .URL "/") "," "") ",")) 0 }}
+	{{ $lastUrlElement }}
+	{{ if eq $lastUrlElement "tags" }}
+	selected
+	{{ end }}"
+
+	>Blog</a>
+
+	<a href="/about" 
+
+	{{- if eq .URL "/about/" }}
+	class="selected"
+	{{- end -}}
+
+	>About</a>
+
+	<a href="mailto:bp.liston@gmail.com" >Email</a>
+</nav>
+
+</header>

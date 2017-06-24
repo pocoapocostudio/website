@@ -1,0 +1,15 @@
+<nav class="blog-nav" aria-label="Next and previous posts">
+
+	<p class="blog-previous">
+		{{ if .PrevInSection }}
+			<a class="previous" href="{{.PrevInSection.Permalink}}">Previous: {{.PrevInSection.Title}}</a>
+		{{ end }}
+	</p>
+
+	<p class="blog-next">
+		{{ if .NextInSection }}
+			<a class="next" href="{{.NextInSection.Permalink}}">Next: {{.NextInSection.Title}}</a>
+		{{ end }}
+	</p>
+
+</nav>

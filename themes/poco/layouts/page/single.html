@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+<body class="page" onload="checkTheDivStyle()">
+
+{{ partial "sub-header.html" . }}
+
+<main aria-label="{{ .Title }} page" id="content">
+		<section>
+		<h3 class="page-title">{{ .Title }}</h3>
+
+		<p class="page-description">{{ with .Params.tagline }}{{ . }}{{ end }}</p>
+
+		{{ .Content }}
+
+		</section>
+</main>
+
+{{ partial "footer.html" . }}

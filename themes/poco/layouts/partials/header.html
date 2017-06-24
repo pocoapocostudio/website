@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="/css/style.css" rel="stylesheet" type="text/css">
+
+<noscript>
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+<style>
+@font-face {
+    font-family: "ZonaPro";
+    src: url(/fonts/ZonaPro-Bold.woff) format('woff');
+    font-style: normal;
+ 	font-weight: 700; 
+}
+
+@font-face {
+	font-family: "ZonaPro";
+    src: url(/fonts/ZonaPro-Black.woff) format('woff');
+    font-style: normal;
+ 	font-weight: 900; 
+}
+</style>
+</noscript>
+
+{{ if .RSSLink }}
+<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+<link href="{{ .RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ end }}
+
+{{ template "_internal/google_analytics_async.html" . }}
+
+<title>Poco a Poco | {{ .Title }}</title>
+
+
+<script type="text/javascript">
+
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+function eraseCookie(name) {
+	createCookie(name,"",-1);
+}
+
+function setTheDivStyle() {
+if(!readCookie('wroteIt')) {
+// if cookie not found display the div and create the cookie
+document.getElementById("theLink").style.display="block";
+createCookie('wroteIt', 'wroteIt', 1);  // 1 day = 24 hours persistence
+}
+else {
+// if cookie found hide the div
+document.getElementById("theLink").style.display="none";
+}
+}
+
+function checkTheDivStyle() {
+	if(readCookie('wroteIt')) {
+	document.getElementById("theLink").style.display="none";
+}
+}
+</script>
+
+</head>

@@ -1,0 +1,30 @@
+{{ partial "header.html" . }}
+
+<body class="category" onload="checkTheDivStyle()">
+
+{{ partial "sub-header.html" . }}
+
+<main id="content">
+
+<h3 class="page-title">{{ .Title }} Projects</h3>
+<p class="page-description"></p>
+
+	<aside id="categories" class="work-categories-container" aria-label="All work item categories">
+	
+		{{ partial "categories.html" . }}
+
+	</aside>
+
+		<section id="work-cards" aria-label="Work items in {{ .Title }} category">
+		{{ $paginator := .Paginate (where .Data.Pages "Section" "work") }}
+			{{ range $paginator.Pages }}
+				{{ partial "work-card.html" . }}
+	    	{{- end -}}
+
+		</section>
+
+{{ partial "pagination.html" . }}
+
+</main>
+
+{{ partial "footer.html" . }}
