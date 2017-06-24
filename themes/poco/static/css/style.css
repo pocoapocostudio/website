@@ -195,7 +195,7 @@
 		text-align: center;
 		background-color: #fff;
 		margin-bottom: 	4em;
-		background-image: url("/img/theme/bg.jpg");
+		background-image: url("/img/theme/bg.gif");
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -298,7 +298,6 @@
 	.title-text-introduction {
 		font-size: 2.5em;
 		line-height: 1.5em;
-		margin-bottom: .25em;
 	}
 
 	.title-text {
