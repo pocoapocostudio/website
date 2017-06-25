@@ -34,7 +34,7 @@
 /* # Global */
 
 	body {
-		background-color: #f4f4f4;
+		background-color: #fff;
 		font-family: "Nunito", sans-serif;
 		margin: 0;
 		color: #3f3f3f;
@@ -93,7 +93,7 @@
 	}
 
 	.logo {
-		padding-top: .75em;
+		padding-top: .5em;
 		font-family: "Fredoka One", sans-serif;
 		font-size: 5em;
 		letter-spacing: -.01em;
@@ -195,7 +195,7 @@
 		text-align: center;
 		background-color: #fff;
 		margin-bottom: 	4em;
-		background-image: url("/img/theme/bg.gif");
+		background-image: url("/img/theme/pattern.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -253,7 +253,7 @@
 	header nav .selected {
 		padding-bottom: .5em;
 		padding-top: .34em;
-		background-color: #f4f4f4;
+		background-color: #fff;
 		color: #8e200e;
 	}
 
@@ -266,7 +266,7 @@
 /* ## Footer */
 
 	footer {
-		background-color: #fff;
+		background-color: #f4f4f4;
 		width: 100%;
 		display: inline-block;
 		margin-top: 5em;
@@ -446,7 +446,7 @@
 	}
 
 	.container-element {
-		background-color: #fff;
+		background-color: #fbfbfb;
 		box-shadow: .25em .25em .25em #efefef;
 	}
 
@@ -503,7 +503,7 @@
 /* ## Work Item Card */
 
 	.work-item-card {
-		background-color: #fff;
+		background-color: #fbfbfb;
 		box-sizing: border-box;
 		box-shadow: .25em .25em .25em #efefef;
 		height: 35em;;
