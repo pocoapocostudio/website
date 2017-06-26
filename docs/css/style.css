@@ -446,8 +446,8 @@
 	}
 
 	.container-element {
-		background-color: #fbfbfb;
-		box-shadow: .25em .25em .25em #efefef;
+		background-color: #fff;
+		box-shadow: 0em 0em .5em #e1e1e1;
 	}
 
 	.post article p {
@@ -503,9 +503,9 @@
 /* ## Work Item Card */
 
 	.work-item-card {
-		background-color: #fbfbfb;
+		background-color: #fff;
 		box-sizing: border-box;
-		box-shadow: .25em .25em .25em #efefef;
+		box-shadow: 0em 0em .5em #e1e1e1;
 		height: 35em;;
 		display: inline-block;
 		width: 49%;
