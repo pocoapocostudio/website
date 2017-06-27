@@ -1,7 +1,7 @@
 theme = "poco"
 languageCode = "en-us"
-title = "Poco A Poco | Digital Design and Video Production in Denver, Colorado"
-baseURL = "http://pocoapocostudio.com/"
+title = "Poco A Poco | Web Design and Development"
+baseURL = "https://pocoapocostudio.com/"
 publishDir = "docs"
 paginate = 8
 pluralizeListTitles = false

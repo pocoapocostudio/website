@@ -11,9 +11,9 @@ tags = [ "Design", "Poco", "Development"]
 
 If you're reading this, you've caught me at a weird time. I'm transforming my freelance business, previously named Brian Liston Video Production & Digital Design, into Poco a Poco Studio, a small design shop focused on web development.
 
-There are a couple reasons for this change. I've decided to pursue what I enjoy doing most, web development, and I'm aiming to bring other designers and developers on to some of my web projects.
+There are a couple reasons for this change. I've decided to pursue what I enjoy doing most, web development, and I'm aiming to bring other designers and developers in on some of my web projects.
 
-I'm really privileged to have had experience in a variety of creative roles, such as print designer, video editor and animator. Freelancing gives me the flexibility to pick up whatever kind of projects I want to work on. One day I can be shooting photos of a conference for grade school science teachers, another day I can be editing audio for a podcast. For an autodidact like myself, this is a great arrangement. I feel like my work was always challenging. Working on so many different projects requires me to learn continuously and expand my creative abilities.
+I'm privileged to have had experience in a variety of creative roles, such as print designer, video editor and animator. Freelancing gives me the flexibility to pick up whatever kind of projects I want to work on. One day I can be shooting photos of a conference for grade school science teachers, another day I can be editing audio for a podcast. For an autodidact like myself, this is a great arrangement. I feel like my work is always challenging. Working on so many different projects requires me to learn continuously and expand my creative abilities.
 
 However, I feel like the time has come to choose one craft. I want to master something, not be adequate at a few different things. It was a difficult decision, but I've finally chosen web development. Since I'm self-taught, I've always felt like a little bit of an imposter around other devs. I've also felt a little hesitant to give up video and visual design. And, I've worried that focusing on just one sort of creative work will be boring.
 

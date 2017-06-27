@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Poco A Poco | Digital Design and Video Production in Denver, Colorado</title>
-    <link>http://pocoapocostudio.com/blog/</link>
-    <description>Recent content in Blog on Poco A Poco | Digital Design and Video Production in Denver, Colorado</description>
+    <title>Blog on Poco A Poco | Web Design and Development</title>
+    <link>https://pocoapocostudio.com/blog/</link>
+    <description>Recent content in Blog on Poco A Poco | Web Design and Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Jun 2017 14:02:18 -0600</lastBuildDate>
     
-	<atom:link href="http://pocoapocostudio.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pocoapocostudio.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Poco a Poco Studio</title>
-      <link>http://pocoapocostudio.com/blog/poco-a-poco/</link>
+      <link>https://pocoapocostudio.com/blog/poco-a-poco/</link>
       <pubDate>Fri, 23 Jun 2017 14:02:18 -0600</pubDate>
       
-      <guid>http://pocoapocostudio.com/blog/poco-a-poco/</guid>
+      <guid>https://pocoapocostudio.com/blog/poco-a-poco/</guid>
       <description>If you&amp;rsquo;re reading this, you&amp;rsquo;ve caught me at a weird time. I&amp;rsquo;m transforming my freelance business, previously named Brian Liston Video Production &amp;amp; Digital Design, into Poco a Poco Studio, a small design shop focused on web development.
-There are a couple reasons for this change. I&amp;rsquo;ve decided to pursue what I enjoy doing most, web development, and I&amp;rsquo;m aiming to bring other designers and developers on to some of my web projects.</description>
+There are a couple reasons for this change. I&amp;rsquo;ve decided to pursue what I enjoy doing most, web development, and I&amp;rsquo;m aiming to bring other designers and developers in on some of my web projects.</description>
     </item>
     
     <item>
       <title>A little about the VVS portfolio theme I created for my new website</title>
-      <link>http://pocoapocostudio.com/blog/vvs-theme/</link>
+      <link>https://pocoapocostudio.com/blog/vvs-theme/</link>
       <pubDate>Wed, 19 Apr 2017 14:02:18 -0600</pubDate>
       
-      <guid>http://pocoapocostudio.com/blog/vvs-theme/</guid>
+      <guid>https://pocoapocostudio.com/blog/vvs-theme/</guid>
       <description>The evolution of this site&#39;s home page, December &#39;16 to March &#39;17
  I&amp;rsquo;ve named the theme I designed for my site VVS, or &amp;ldquo;Very Very Slight&amp;rdquo;. It&amp;rsquo;s a simple theme meant for portfolio sites. What sets it apart from most portfolio themes is that it&amp;rsquo;s designed to be accessible for disabled users. I paid special attention to W3C&amp;rsquo;s Web Content Accessibility Guidelines while developing the theme, and while I haven&amp;rsquo;t yet had the chance to test it with disabled users, the theme does meet every Level A standard and many level AA standards.</description>
     </item>
     
     <item>
       <title>Can Hugo, a static site generator, replace WordPress?</title>
-      <link>http://pocoapocostudio.com/blog/hugo-wordpress/</link>
+      <link>https://pocoapocostudio.com/blog/hugo-wordpress/</link>
       <pubDate>Sun, 16 Apr 2017 14:02:18 -0600</pubDate>
       
-      <guid>http://pocoapocostudio.com/blog/hugo-wordpress/</guid>
+      <guid>https://pocoapocostudio.com/blog/hugo-wordpress/</guid>
       <description>My clients have been having a lot of trouble keeping bad guys out of their WordPress sites lately. Two different clients of mine have gotten their WordPress websites hacked in the last few months. Because WordPress is by far the most popular CMS right now, it attracts an inordinate amount of attention from hackers. Just last month a site I help maintain, viewpointmag.com, suffered incredible amounts of downtime because of what likely was a days-long brute force attack.</description>
     </item>
     

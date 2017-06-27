@@ -31,12 +31,28 @@
 
 -->
 
+	<section id="services" area-label="Our Services">
+			<h3 class="title-text">Our Services</h3>
+			<div class="services-container">
+			<img class="services-img-left" src="/img/theme/web-dev.png" />
+			<p class="services-text-left">
+						<span class="services-title"><strong>Web Development</strong></span><br />
+			Poco a Poco can develop your website! We build eCommerce stores, landing pages, event websites and all sorts of web presences for small businesses.</p>
+			</div>
+			<div class="services-container">
+			<img class="services-img-right" src="/img/theme/web-des.png" />
+			<p class="services-text-right">
+						<span class="services-title"><strong>Web Design</strong></span><br />
+			Poco a Poco can design your website! We design fast, accessible websites that meet the latest web standards.</p>
+			</div>
+	</section>
+
 	<hr />
 
 	<section id="work-list" aria-label="Most recent work I've made">
 
 		<h3 class="title-text">Our work</h3>
-		<p class="title-description">Poco's latest projects</p>
+		<p class="title-description">Poco's new projects</p>
 
 		{{ range $key, $taxonomy := .Site.Taxonomies.homepage }}
             {{ range $taxonomy.Pages }}
