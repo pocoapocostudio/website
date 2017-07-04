@@ -99,6 +99,13 @@
 		letter-spacing: -.01em;
 	}
 
+	.logo-worm {
+		width: 1.07em;
+		padding-left: .2em;
+		vertical-align: sub;
+		padding-bottom: .18em;
+	}
+
 	.one-poco {
 		color: #652c90;
 	}
